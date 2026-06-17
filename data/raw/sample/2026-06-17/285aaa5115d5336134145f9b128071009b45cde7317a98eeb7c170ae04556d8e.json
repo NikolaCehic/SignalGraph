@@ -1,0 +1,22 @@
+{
+  "default_branch": "main",
+  "description": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows.",
+  "forks": 2400,
+  "full_name": "microsoft/graphrag",
+  "health_score": 0.87,
+  "id": "repo:microsoft/graphrag",
+  "kind": "repo",
+  "last_commit_at": "2026-03-15T10:00:00Z",
+  "license": "MIT",
+  "name": "graphrag",
+  "open_issues_count": 150,
+  "owner": "microsoft",
+  "risk_score": 0.13,
+  "stars": 26000,
+  "topics": [
+    "graphrag",
+    "retrieval",
+    "knowledge-graph",
+    "community-detection"
+  ]
+}

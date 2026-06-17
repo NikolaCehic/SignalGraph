@@ -1,0 +1,22 @@
+{
+  "default_branch": "main",
+  "description": "Reference implementation for agent memory and long-term memory agents with examples and evaluation scripts.",
+  "forks": 1400,
+  "full_name": "cpacker/MemGPT",
+  "health_score": 0.74,
+  "id": "repo:cpacker/memgpt",
+  "kind": "repo",
+  "last_commit_at": "2025-11-02T12:00:00Z",
+  "license": "Apache-2.0",
+  "name": "MemGPT",
+  "open_issues_count": 220,
+  "owner": "cpacker",
+  "risk_score": 0.26,
+  "stars": 13000,
+  "topics": [
+    "agent-memory",
+    "llm-agents",
+    "retrieval",
+    "evaluation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "abstract": "Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluation of persisted context.",
+  "arxiv_id": "2310.08560",
+  "authors": [
+    "Charles Packer",
+    "Sarah Wooders"
+  ],
+  "citation_count": 340,
+  "id": "paper:sample:memgpt",
+  "kind": "paper",
+  "published_at": "2023-10-12",
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "venue": "arXiv"
+}

@@ -1,0 +1,467 @@
+{
+  "authors": [
+    {
+      "affiliation_text": "",
+      "id": "author:darren-edge",
+      "name": "Darren Edge",
+      "openalex_id": "",
+      "orcid": "",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    },
+    {
+      "affiliation_text": "",
+      "id": "author:ha-trinh",
+      "name": "Ha Trinh",
+      "openalex_id": "",
+      "orcid": "",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    },
+    {
+      "affiliation_text": "",
+      "id": "author:charles-packer",
+      "name": "Charles Packer",
+      "openalex_id": "",
+      "orcid": "",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_url": "https://arxiv.org/abs/2310.08560"
+    },
+    {
+      "affiliation_text": "",
+      "id": "author:sarah-wooders",
+      "name": "Sarah Wooders",
+      "openalex_id": "",
+      "orcid": "",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_url": "https://arxiv.org/abs/2310.08560"
+    },
+    {
+      "affiliation_text": "",
+      "id": "author:alex-evaluator",
+      "name": "Alex Evaluator",
+      "openalex_id": "",
+      "orcid": "",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999"
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "benchmark:benchmark",
+      "metric": "Benchmark",
+      "name": "Benchmark",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999",
+      "task": "retrieval_quality"
+    },
+    {
+      "id": "benchmark:faithfulness",
+      "metric": "Faithfulness",
+      "name": "Faithfulness",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999",
+      "task": "retrieval_quality"
+    },
+    {
+      "id": "benchmark:context-recall",
+      "metric": "Context Recall",
+      "name": "Context Recall",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999",
+      "task": "retrieval_quality"
+    },
+    {
+      "id": "benchmark:answer-relevance",
+      "metric": "Answer Relevance",
+      "name": "Answer Relevance",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999",
+      "task": "retrieval_quality"
+    }
+  ],
+  "chunks": [
+    {
+      "end_offset": 236,
+      "hash": "be1922c6351d9aaef8b3e0b51c1060ef7a641e51217750bc8b3461314275579f",
+      "id": "chunk:fc6e5b8d6191",
+      "section": "abstract",
+      "source_id": "paper:sample:graphrag",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_type": "Paper",
+      "source_url": "https://arxiv.org/abs/2404.16130",
+      "start_offset": 0,
+      "text": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks."
+    },
+    {
+      "end_offset": 178,
+      "hash": "ea32eec1f0a204eadad753f1acd1a6e00d4ab5fb0a6273292b9f3bd8d67c0fe3",
+      "id": "chunk:83ff5028526f",
+      "section": "repo_metadata",
+      "source_id": "repo:microsoft/graphrag",
+      "source_record_id": "source:sample:285aaa5115d53361",
+      "source_type": "Repo",
+      "source_url": "https://github.com/microsoft/graphrag",
+      "start_offset": 0,
+      "text": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. graphrag retrieval knowledge-graph community-detection"
+    },
+    {
+      "end_offset": 202,
+      "hash": "d4ecba8dbe6be81445a21d74c9575341fa9789323c6a7bf2017b5cba442fc0d8",
+      "id": "chunk:9300a3545ee0",
+      "section": "abstract",
+      "source_id": "paper:sample:memgpt",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_type": "Paper",
+      "source_url": "https://arxiv.org/abs/2310.08560",
+      "start_offset": 0,
+      "text": "Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluation of persisted context."
+    },
+    {
+      "end_offset": 152,
+      "hash": "8de8591c7d423374cd3eedaebb2fb77bff5933bfa841a158b74c7c6b68d10d48",
+      "id": "chunk:251a3df8a74c",
+      "section": "repo_metadata",
+      "source_id": "repo:cpacker/memgpt",
+      "source_record_id": "source:sample:54258ebfc76ddcbc",
+      "source_type": "Repo",
+      "source_url": "https://github.com/cpacker/MemGPT",
+      "start_offset": 0,
+      "text": "Reference implementation for agent memory and long-term memory agents with examples and evaluation scripts. agent-memory llm-agents retrieval evaluation"
+    },
+    {
+      "end_offset": 244,
+      "hash": "091ebe00ed57217fe8a919df99e19f34150727d1ee17ec3584f32ce70b0118d4",
+      "id": "chunk:87358b556906",
+      "section": "abstract",
+      "source_id": "paper:sample:rag-eval",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_type": "Paper",
+      "source_url": "https://openalex.org/W999999",
+      "start_offset": 0,
+      "text": "RAG evaluation should include faithfulness, answer relevance, context precision, context recall, graph path recall, and evidence-chain completeness. Benchmarks are strongest when they compare vector-only retrieval against graph-aware retrieval."
+    }
+  ],
+  "claims": [
+    {
+      "claim_type": "architecture",
+      "confidence": 0.78,
+      "extracted_at": "2026-06-17T18:05:26+00:00",
+      "extractor_version": "heuristic-0.1",
+      "id": "claim:b270bdb3ea04",
+      "polarity": "positive",
+      "source_id": "paper:sample:graphrag",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus.",
+      "source_type": "Paper",
+      "source_url": "https://arxiv.org/abs/2404.16130",
+      "text": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus."
+    },
+    {
+      "claim_type": "adoption",
+      "confidence": 0.72,
+      "extracted_at": "2026-06-17T18:05:26+00:00",
+      "extractor_version": "heuristic-0.1",
+      "id": "claim:1fdb10877b42",
+      "polarity": "neutral",
+      "source_id": "repo:microsoft/graphrag",
+      "source_record_id": "source:sample:285aaa5115d53361",
+      "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows.",
+      "source_type": "Repo",
+      "source_url": "https://github.com/microsoft/graphrag",
+      "text": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows."
+    },
+    {
+      "claim_type": "architecture",
+      "confidence": 0.78,
+      "extracted_at": "2026-06-17T18:05:26+00:00",
+      "extractor_version": "heuristic-0.1",
+      "id": "claim:17019d2cd00d",
+      "polarity": "neutral",
+      "source_id": "paper:sample:memgpt",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_span": "Agent memory systems manage short-term and long-term context for language agents.",
+      "source_type": "Paper",
+      "source_url": "https://arxiv.org/abs/2310.08560",
+      "text": "Agent memory systems manage short-term and long-term context for language agents."
+    },
+    {
+      "claim_type": "benchmark",
+      "confidence": 0.72,
+      "extracted_at": "2026-06-17T18:05:26+00:00",
+      "extractor_version": "heuristic-0.1",
+      "id": "claim:53871863d8a3",
+      "polarity": "neutral",
+      "source_id": "repo:cpacker/memgpt",
+      "source_record_id": "source:sample:54258ebfc76ddcbc",
+      "source_span": "Reference implementation for agent memory and long-term memory agents with examples and evaluation scripts.",
+      "source_type": "Repo",
+      "source_url": "https://github.com/cpacker/MemGPT",
+      "text": "Reference implementation for agent memory and long-term memory agents with examples and evaluation scripts."
+    },
+    {
+      "claim_type": "benchmark",
+      "confidence": 0.78,
+      "extracted_at": "2026-06-17T18:05:26+00:00",
+      "extractor_version": "heuristic-0.1",
+      "id": "claim:01f171adcf60",
+      "polarity": "neutral",
+      "source_id": "paper:sample:rag-eval",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_span": "RAG evaluation should include faithfulness, answer relevance, context precision, context recall, graph path recall, and evidence-chain completeness.",
+      "source_type": "Paper",
+      "source_url": "https://openalex.org/W999999",
+      "text": "RAG evaluation should include faithfulness, answer relevance, context precision, context recall, graph path recall, and evidence-chain completeness."
+    }
+  ],
+  "datasets": [
+    {
+      "domain": "ai_research",
+      "id": "dataset:research-corpus",
+      "license": "",
+      "name": "Research Corpus",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    }
+  ],
+  "methods": [
+    {
+      "aliases": [
+        "graph retrieval augmented generation",
+        "graph rag"
+      ],
+      "category": "graph-aware retrieval",
+      "description": "Retrieval augmented generation that uses a knowledge graph, graph neighborhoods, or community summaries.",
+      "id": "method:graphrag",
+      "name": "GraphRAG",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    },
+    {
+      "aliases": [
+        "louvain",
+        "leiden",
+        "graph clustering"
+      ],
+      "category": "graph analytics",
+      "description": "Finds clusters in a graph to support global summaries and landscape analysis.",
+      "id": "method:community-detection",
+      "name": "Community Detection",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    },
+    {
+      "aliases": [
+        "long-term memory agents",
+        "memory augmented agents",
+        "agentic memory"
+      ],
+      "category": "agent architecture",
+      "description": "Persistent or retrieved memory patterns for AI agents.",
+      "id": "method:agent-memory",
+      "name": "Agent Memory",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_url": "https://arxiv.org/abs/2310.08560"
+    },
+    {
+      "aliases": [
+        "ragas",
+        "faithfulness",
+        "context recall"
+      ],
+      "category": "evaluation",
+      "description": "Metrics and workflows for measuring retrieval and answer quality.",
+      "id": "method:rag-evaluation",
+      "name": "RAG Evaluation",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999"
+    }
+  ],
+  "models": [],
+  "organizations": [
+    {
+      "homepage": "",
+      "id": "org:microsoft",
+      "name": "microsoft",
+      "openalex_id": "",
+      "source_record_id": "source:sample:285aaa5115d53361",
+      "source_url": "https://github.com/microsoft/graphrag",
+      "type": "github_owner"
+    },
+    {
+      "homepage": "",
+      "id": "org:cpacker",
+      "name": "cpacker",
+      "openalex_id": "",
+      "source_record_id": "source:sample:54258ebfc76ddcbc",
+      "source_url": "https://github.com/cpacker/MemGPT",
+      "type": "github_owner"
+    }
+  ],
+  "papers": [
+    {
+      "abstract": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks.",
+      "arxiv_id": "2404.16130",
+      "citation_count": 128,
+      "doi": "",
+      "id": "paper:sample:graphrag",
+      "openalex_id": "",
+      "published_at": "2024-04-24",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:9b98602d0fee3df4",
+      "source_url": "https://arxiv.org/abs/2404.16130",
+      "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+      "venue": "arXiv"
+    },
+    {
+      "abstract": "Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluation of persisted context.",
+      "arxiv_id": "2310.08560",
+      "citation_count": 340,
+      "doi": "",
+      "id": "paper:sample:memgpt",
+      "openalex_id": "",
+      "published_at": "2023-10-12",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:504f3f8521dbd8f9",
+      "source_url": "https://arxiv.org/abs/2310.08560",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "venue": "arXiv"
+    },
+    {
+      "abstract": "RAG evaluation should include faithfulness, answer relevance, context precision, context recall, graph path recall, and evidence-chain completeness. Benchmarks are strongest when they compare vector-only retrieval against graph-aware retrieval.",
+      "arxiv_id": "",
+      "citation_count": 42,
+      "doi": "",
+      "id": "paper:sample:rag-eval",
+      "openalex_id": "",
+      "published_at": "2024-08-01",
+      "semantic_scholar_id": "",
+      "source_record_id": "source:sample:ce0cdee458f10057",
+      "source_url": "https://openalex.org/W999999",
+      "title": "RAG Evaluation with Faithfulness and Context Recall",
+      "venue": "OpenAlex sample"
+    }
+  ],
+  "repos": [
+    {
+      "default_branch": "main",
+      "description": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows.",
+      "forks": 2400,
+      "full_name": "microsoft/graphrag",
+      "health_score": 0.87,
+      "id": "repo:microsoft/graphrag",
+      "last_commit_at": "2026-03-15T10:00:00Z",
+      "latest_release_at": "",
+      "license": "MIT",
+      "name": "graphrag",
+      "open_issues_count": 150,
+      "owner": "microsoft",
+      "risk_score": 0.13,
+      "source_record_id": "source:sample:285aaa5115d53361",
+      "stars": 26000,
+      "topics": [
+        "graphrag",
+        "retrieval",
+        "knowledge-graph",
+        "community-detection"
+      ],
+      "url": "https://github.com/microsoft/graphrag"
+    },
+    {
+      "default_branch": "main",
+      "description": "Reference implementation for agent memory and long-term memory agents with examples and evaluation scripts.",
+      "forks": 1400,
+      "full_name": "cpacker/MemGPT",
+      "health_score": 0.74,
+      "id": "repo:cpacker/memgpt",
+      "last_commit_at": "2025-11-02T12:00:00Z",
+      "latest_release_at": "",
+      "license": "Apache-2.0",
+      "name": "MemGPT",
+      "open_issues_count": 220,
+      "owner": "cpacker",
+      "risk_score": 0.26,
+      "source_record_id": "source:sample:54258ebfc76ddcbc",
+      "stars": 13000,
+      "topics": [
+        "agent-memory",
+        "llm-agents",
+        "retrieval",
+        "evaluation"
+      ],
+      "url": "https://github.com/cpacker/MemGPT"
+    }
+  ],
+  "source_records": [
+    {
+      "fetched_at": "2026-06-17T18:05:26+00:00",
+      "id": "source:sample:9b98602d0fee3df4",
+      "license_or_terms_note": "Bundled deterministic sample corpus for local tests and demos.",
+      "raw_payload_path": "data/raw/sample/2026-06-17/9b98602d0fee3df4580f883ad5bc28ad80d5a41bbd94ecf133d33db9d91ca869.json",
+      "request_params": {
+        "topic": "GraphRAG agent memory sample"
+      },
+      "response_hash": "9b98602d0fee3df4580f883ad5bc28ad80d5a41bbd94ecf133d33db9d91ca869",
+      "source_id": "2404.16130",
+      "source_name": "sample",
+      "source_url": "https://arxiv.org/abs/2404.16130"
+    },
+    {
+      "fetched_at": "2026-06-17T18:05:26+00:00",
+      "id": "source:sample:285aaa5115d53361",
+      "license_or_terms_note": "Bundled deterministic sample corpus for local tests and demos.",
+      "raw_payload_path": "data/raw/sample/2026-06-17/285aaa5115d5336134145f9b128071009b45cde7317a98eeb7c170ae04556d8e.json",
+      "request_params": {
+        "topic": "GraphRAG agent memory sample"
+      },
+      "response_hash": "285aaa5115d5336134145f9b128071009b45cde7317a98eeb7c170ae04556d8e",
+      "source_id": "microsoft/graphrag",
+      "source_name": "sample",
+      "source_url": "https://github.com/microsoft/graphrag"
+    },
+    {
+      "fetched_at": "2026-06-17T18:05:26+00:00",
+      "id": "source:sample:504f3f8521dbd8f9",
+      "license_or_terms_note": "Bundled deterministic sample corpus for local tests and demos.",
+      "raw_payload_path": "data/raw/sample/2026-06-17/504f3f8521dbd8f995d49a044f5e3e3a9bd004f12972ca25aa0c64dbc058734a.json",
+      "request_params": {
+        "topic": "agent memory sample"
+      },
+      "response_hash": "504f3f8521dbd8f995d49a044f5e3e3a9bd004f12972ca25aa0c64dbc058734a",
+      "source_id": "2310.08560",
+      "source_name": "sample",
+      "source_url": "https://arxiv.org/abs/2310.08560"
+    },
+    {
+      "fetched_at": "2026-06-17T18:05:26+00:00",
+      "id": "source:sample:54258ebfc76ddcbc",
+      "license_or_terms_note": "Bundled deterministic sample corpus for local tests and demos.",
+      "raw_payload_path": "data/raw/sample/2026-06-17/54258ebfc76ddcbcd0cfb179176977dd02709bfb718494fdbfc2b5ca1538a086.json",
+      "request_params": {
+        "topic": "agent memory sample"
+      },
+      "response_hash": "54258ebfc76ddcbcd0cfb179176977dd02709bfb718494fdbfc2b5ca1538a086",
+      "source_id": "cpacker/MemGPT",
+      "source_name": "sample",
+      "source_url": "https://github.com/cpacker/MemGPT"
+    },
+    {
+      "fetched_at": "2026-06-17T18:05:26+00:00",
+      "id": "source:sample:ce0cdee458f10057",
+      "license_or_terms_note": "Bundled deterministic sample corpus for local tests and demos.",
+      "raw_payload_path": "data/raw/sample/2026-06-17/ce0cdee458f1005705f736d9663746da808869cd3efca3bca9a1e99132e700f8.json",
+      "request_params": {
+        "topic": "RAG evaluation sample"
+      },
+      "response_hash": "ce0cdee458f1005705f736d9663746da808869cd3efca3bca9a1e99132e700f8",
+      "source_id": "W999999",
+      "source_name": "sample",
+      "source_url": "https://openalex.org/W999999"
+    }
+  ]
+}
