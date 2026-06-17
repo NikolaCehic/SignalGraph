@@ -1,0 +1,7 @@
+ablation,faithfulness,answer_relevance,evidence_chain_completeness,citation_accuracy,conflict_awareness,staleness_detection
+vector-only,1.0,0.461,0.143,1.0,0.851,0.971
+hybrid,1.0,0.667,0.767,1.0,0.831,0.971
+local,1.0,0.412,0.853,1.0,0.821,0.974
+global,1.0,0.453,0.429,1.0,0.671,0.949
+DRIFT-style,1.0,0.533,0.824,1.0,0.851,1.0
+best-route,1.0,0.633,0.759,1.0,0.851,0.989

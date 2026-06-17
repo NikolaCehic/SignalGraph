@@ -1,0 +1,3068 @@
+[
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify GraphRAG paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-01",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for GraphRAG paper?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:graphrag",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Microsoft GraphRAG repo, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-02",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Microsoft GraphRAG repo?",
+    "required_evidence_edges": [
+      "IMPLEMENTS",
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify MemGPT paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-03",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for MemGPT paper?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:memgpt",
+      "method:agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify cpacker MemGPT repo, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-04",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for cpacker MemGPT repo?",
+    "required_evidence_edges": [
+      "IMPLEMENTS",
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:cpacker/memgpt",
+      "method:agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify RAG evaluation paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-05",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for RAG evaluation paper?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "EVALUATES_ON",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:rag-eval",
+      "method:rag-evaluation"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify SignalGraph agent-memory repo, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-06",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for SignalGraph agent-memory repo?",
+    "required_evidence_edges": [
+      "IMPLEMENTS",
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:example/signalgraph-agent-memory",
+      "method:hybrid-retrieval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Graph-aware agent memory paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-07",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Graph-aware agent memory paper?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "CITES",
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "paper:semanticscholar:s2-graphrag-memory",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify GraphRAG Foundations paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-08",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for GraphRAG Foundations paper?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "paper:semanticscholar:s2-ref-1",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Repository Exploration Agents paper, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-09",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Repository Exploration Agents paper?",
+    "required_evidence_edges": [
+      "EVALUATES_ON",
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "paper:semanticscholar:s2-cite-1",
+      "dataset:research-dataset"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify GraphRAG method node, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-10",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for GraphRAG method node?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [
+      [
+        "method:graphrag",
+        "method:community-detection"
+      ]
+    ],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Agent Memory method node, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-11",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Agent Memory method node?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:agent-memory",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Hybrid Retrieval method node, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-12",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Hybrid Retrieval method node?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:hybrid-retrieval",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify RAG Evaluation method node, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-13",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for RAG Evaluation method node?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Hugging Face GraphRAG model, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-14",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Hugging Face GraphRAG model?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "model:huggingface:example-graphrag-agent-memory",
+      "dataset:huggingface:example-agent-memory-eval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "entity-specific",
+    "expected_answer_outline": "Identify Agent memory eval dataset, cite its connected method or asset evidence, and call out source-grounded caveats.",
+    "id": "ENT-15",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ]
+    ],
+    "query": "What evidence does SignalGraph have for Agent memory eval dataset?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "dataset:huggingface:example-agent-memory-eval",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Dataset",
+      "Model",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Treating entity mentions as adoption proof without cited graph evidence."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-01",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare GraphRAG and agent memory for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "method:agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-02",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare vector-only RAG and GraphRAG for production retrieval decisions.",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-03",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare community detection and hybrid retrieval for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "method:community-detection",
+      "method:hybrid-retrieval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-04",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare Text2Cypher and hybrid retrieval for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:text2cypher",
+      "method:hybrid-retrieval"
+    ],
+    "required_merge_pairs": [
+      [
+        "method:text2cypher",
+        "method:hybrid-retrieval"
+      ]
+    ],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-05",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "repo:example/signalgraph-agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-06",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "repo:cpacker/memgpt",
+      "repo:example/signalgraph-agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-07",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare RAG faithfulness and context recall for production retrieval decisions.",
+    "required_evidence_edges": [
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "benchmark:faithfulness",
+      "benchmark:context-recall"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-08",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare paper evidence and repo evidence for production retrieval decisions.",
+    "required_evidence_edges": [
+      "IMPLEMENTS",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:graphrag",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-09",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare dataset cards and model cards for production retrieval decisions.",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "dataset:huggingface:example-agent-memory-eval",
+      "model:huggingface:example-graphrag-agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-10",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.",
+    "required_evidence_edges": [
+      "CITES",
+      "INTRODUCES"
+    ],
+    "required_evidence_nodes": [
+      "paper:semanticscholar:s2-ref-1",
+      "paper:semanticscholar:s2-graphrag-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-11",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare RAG evaluation and production repo health for production retrieval decisions.",
+    "required_evidence_edges": [
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:rag-eval",
+      "repo:example/signalgraph-agent-memory"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-12",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare claims and source chunks for production retrieval decisions.",
+    "required_evidence_edges": [
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "claim:8caf5dceb093",
+      "chunk:87358b556906"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-13",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare benchmarks and datasets for production retrieval decisions.",
+    "required_evidence_edges": [
+      "EVALUATES_ON",
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "benchmark:faithfulness",
+      "dataset:research-dataset"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-14",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare local search and global search for production retrieval decisions.",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "comparison",
+    "expected_answer_outline": "Give a side-by-side answer that distinguishes graph evidence, implementation signals, and evaluation caveats.",
+    "id": "CMP-15",
+    "ideal_graph_paths": [
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ],
+      [
+        "Paper",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Repo",
+        "Method",
+        "Paper"
+      ]
+    ],
+    "query": "Compare DRIFT-style routing and structured lookup for production retrieval decisions.",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "community:agent-architecture",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Paper",
+      "Repo",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Claiming either side is always superior without source-specific limits."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-01",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the main themes in GraphRAG and agent memory research?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "community:agent-architecture",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-02",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the approaches to RAG evaluation?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-03",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the implementation risks for research-to-production assistants?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "repo:example/signalgraph-agent-memory",
+      "claim:891ee61a3a4a"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-04",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the community-report signals for global questions?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "community:agent-architecture",
+      "method:community-detection"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-05",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the benchmark and dataset coverage in the corpus?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "benchmark:context-recall",
+      "dataset:research-dataset"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-06",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the repo health patterns across GraphRAG implementations?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "repo:cpacker/memgpt"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-07",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the how claims connect papers to source chunks?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "claim:5b33c60ba8dd",
+      "chunk:fc6e5b8d6191"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-08",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the how methods connect repos and papers?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-09",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the where uncertainty appears in retrieved evidence?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "claim:d12728f4e06b",
+      "claim:891ee61a3a4a"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-10",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the evidence chains useful for decision memos?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:graphrag",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-11",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the the practical asset layer for models and datasets?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "model:huggingface:example-graphrag-agent-memory",
+      "dataset:huggingface:example-agent-memory-eval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-12",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the graph traversal patterns behind SignalGraph answers?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-13",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the citation and contradiction patterns in the sample graph?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "claim:34b0a822959c",
+      "claim:d12728f4e06b"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-14",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the methods most central to agent architecture?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "method:agent-memory",
+      "method:hybrid-retrieval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "broad landscape",
+    "expected_answer_outline": "Summarize broad corpus themes from community reports and representative source-grounded evidence.",
+    "id": "LAN-15",
+    "ideal_graph_paths": [
+      [
+        "Community",
+        "Method",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Paper",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "What are the source provenance patterns across the graph?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "chunk:87358b556906",
+      "claim:8caf5dceb093"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Community",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Paper",
+      "Repo",
+      "Benchmark",
+      "Dataset"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Inventing a trend that is not supported by retrieved communities or citations."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-01",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which repos implement papers about GraphRAG?",
+    "required_evidence_edges": [
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "paper:sample:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-02",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which repos implement papers about agent memory?",
+    "required_evidence_edges": [
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "repo:cpacker/memgpt",
+      "paper:sample:memgpt"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-03",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which methods are connected to benchmark evidence?",
+    "required_evidence_edges": [
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-04",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which papers cite or are cited by Graph-aware Agent Memory?",
+    "required_evidence_edges": [
+      "CITES"
+    ],
+    "required_evidence_nodes": [
+      "paper:semanticscholar:s2-graphrag-memory",
+      "paper:semanticscholar:s2-ref-1"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-05",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which repos have source chunks tied to production risk?",
+    "required_evidence_edges": [
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:example/signalgraph-agent-memory",
+      "chunk:c484a3786fb3"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-06",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which methods belong to the agent architecture community?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-07",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which assets belong to the Hugging Face evaluation layer?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "model:huggingface:example-graphrag-agent-memory",
+      "dataset:huggingface:example-agent-memory-eval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-08",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which paper evaluates on faithfulness and context recall?",
+    "required_evidence_edges": [
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:rag-eval",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-09",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which repo claims recent benchmark coverage?",
+    "required_evidence_edges": [
+      "CLAIMS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "repo:example/signalgraph-agent-memory",
+      "claim:aafc12fdaaf8"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "structured",
+    "expected_answer_outline": "Return typed graph matches with explicit node IDs and stored relationship evidence.",
+    "id": "STR-10",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "IMPLEMENTS",
+        "Paper"
+      ],
+      [
+        "Paper",
+        "EVALUATES_ON",
+        "Benchmark"
+      ],
+      [
+        "Node",
+        "BELONGS_TO_COMMUNITY",
+        "Community"
+      ]
+    ],
+    "query": "Which graph paths connect Microsoft GraphRAG to RAG evaluation?",
+    "required_evidence_edges": [
+      "IMPLEMENTS"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "paper:sample:rag-eval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Benchmark",
+      "Dataset",
+      "DocumentChunk",
+      "Claim",
+      "Community"
+    ],
+    "stale_sensitive": false,
+    "unacceptable_hallucinations": [
+      "Returning entities without a typed graph relationship."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-01",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Which GraphRAG implementation should a startup evaluate first for enterprise support automation?",
+    "required_evidence_edges": [
+      "IMPLEMENTS",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-02",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Should a team use agent memory or GraphRAG for long-term assistant context?",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "method:agent-memory",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-03",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Should the SignalGraph sample repo be treated as production-ready?",
+    "required_evidence_edges": [
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:example/signalgraph-agent-memory",
+      "claim:891ee61a3a4a"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-04",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Which evaluation route should be used before adopting a GraphRAG repo?",
+    "required_evidence_edges": [
+      "EVALUATES_ON",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-05",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Should vector-only retrieval be considered enough for broad landscape questions?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "CLAIMS"
+    ],
+    "required_evidence_nodes": [
+      "method:rag-evaluation",
+      "community:agent-architecture"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-06",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Which implementation has the strongest source-grounded repo-health signal?",
+    "required_evidence_edges": [
+      "SIMILAR_TO",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "repo:cpacker/memgpt"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-07",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Should Hugging Face assets be part of a production adoption review?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY"
+    ],
+    "required_evidence_nodes": [
+      "model:huggingface:example-graphrag-agent-memory",
+      "dataset:huggingface:example-agent-memory-eval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-08",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "What should be checked before relying on GraphRAG community reports?",
+    "required_evidence_edges": [
+      "BELONGS_TO_COMMUNITY",
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "community:agent-architecture",
+      "method:community-detection"
+    ],
+    "required_merge_pairs": [
+      [
+        "method:graphrag",
+        "method:community-detection"
+      ]
+    ],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-09",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Which evidence chain best supports a startup GraphRAG pilot?",
+    "required_evidence_edges": [
+      "INTRODUCES",
+      "IMPLEMENTS",
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "paper:sample:graphrag",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "decision-memo",
+    "expected_answer_outline": "Make a conditional recommendation with citations, graph evidence, missing evidence, and next checks.",
+    "id": "DEC-10",
+    "ideal_graph_paths": [
+      [
+        "Paper",
+        "Method",
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Community",
+        "Method",
+        "Repo"
+      ]
+    ],
+    "query": "Should Text2Cypher be evaluated as a companion to hybrid retrieval?",
+    "required_evidence_edges": [
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:text2cypher",
+      "method:hybrid-retrieval"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark",
+      "Dataset",
+      "Community"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "A blanket production adoption recommendation without repo-health, benchmark, or staleness caveats."
+    ]
+  },
+  {
+    "category": "adversarial/uncertainty",
+    "expected_answer_outline": "Refuse overconfident claims, identify missing evidence, and anchor any answer in citations.",
+    "id": "ADV-01",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ]
+    ],
+    "query": "Which repo is definitely production-ready with no risks?",
+    "required_evidence_edges": [
+      "CLAIMS",
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:microsoft/graphrag",
+      "claim:891ee61a3a4a"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Definite universal claims, uncited benchmark wins, or stale repo-health assertions."
+    ]
+  },
+  {
+    "category": "adversarial/uncertainty",
+    "expected_answer_outline": "Refuse overconfident claims, identify missing evidence, and anchor any answer in citations.",
+    "id": "ADV-02",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ]
+    ],
+    "query": "Can SignalGraph prove an uncited benchmark win for every GraphRAG method?",
+    "required_evidence_edges": [
+      "EVALUATES_ON"
+    ],
+    "required_evidence_nodes": [
+      "method:graphrag",
+      "benchmark:faithfulness"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Definite universal claims, uncited benchmark wins, or stale repo-health assertions."
+    ]
+  },
+  {
+    "category": "adversarial/uncertainty",
+    "expected_answer_outline": "Refuse overconfident claims, identify missing evidence, and anchor any answer in citations.",
+    "id": "ADV-03",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ]
+    ],
+    "query": "Should stale repo health claims be trusted without last-commit evidence?",
+    "required_evidence_edges": [
+      "HAS_CHUNK"
+    ],
+    "required_evidence_nodes": [
+      "repo:cpacker/memgpt",
+      "repo:microsoft/graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Definite universal claims, uncited benchmark wins, or stale repo-health assertions."
+    ]
+  },
+  {
+    "category": "adversarial/uncertainty",
+    "expected_answer_outline": "Refuse overconfident claims, identify missing evidence, and anchor any answer in citations.",
+    "id": "ADV-04",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ]
+    ],
+    "query": "What answer should be given when required source spans are missing?",
+    "required_evidence_edges": [
+      "SUPPORTED_BY"
+    ],
+    "required_evidence_nodes": [
+      "claim:d12728f4e06b",
+      "chunk:9300a3545ee0"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Definite universal claims, uncited benchmark wins, or stale repo-health assertions."
+    ]
+  },
+  {
+    "category": "adversarial/uncertainty",
+    "expected_answer_outline": "Refuse overconfident claims, identify missing evidence, and anchor any answer in citations.",
+    "id": "ADV-05",
+    "ideal_graph_paths": [
+      [
+        "Repo",
+        "Claim",
+        "DocumentChunk"
+      ],
+      [
+        "Method",
+        "SIMILAR_TO",
+        "Method"
+      ]
+    ],
+    "query": "Can agent memory be declared superior to GraphRAG for all assistant workloads?",
+    "required_evidence_edges": [
+      "SIMILAR_TO"
+    ],
+    "required_evidence_nodes": [
+      "method:agent-memory",
+      "method:graphrag"
+    ],
+    "required_merge_pairs": [],
+    "required_source_types": [
+      "Repo",
+      "Paper",
+      "Method",
+      "Claim",
+      "DocumentChunk",
+      "Benchmark"
+    ],
+    "stale_sensitive": true,
+    "unacceptable_hallucinations": [
+      "Definite universal claims, uncited benchmark wins, or stale repo-health assertions."
+    ]
+  }
+]
