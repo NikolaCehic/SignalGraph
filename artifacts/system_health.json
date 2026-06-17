@@ -1,0 +1,39 @@
+{
+  "duplicate_merge_rate": 1.0,
+  "graph_edge_count": 243,
+  "graph_node_count": 70,
+  "ingestion_failure_count": 0,
+  "ingestion_success_count": 9,
+  "labels": {
+    "Author": 6,
+    "Benchmark": 4,
+    "Claim": 22,
+    "Community": 1,
+    "Dataset": 3,
+    "DocumentChunk": 14,
+    "Method": 6,
+    "Model": 1,
+    "Organization": 4,
+    "Paper": 6,
+    "Repo": 3
+  },
+  "latency_ms_average": 108.925,
+  "llm_cost_usd_estimate": 0.0,
+  "relationships": {
+    "AFFILIATED_WITH": 1,
+    "AUTHORED_BY": 8,
+    "BELONGS_TO_COMMUNITY": 59,
+    "CITES": 2,
+    "CLAIMS": 19,
+    "CONTRADICTS": 13,
+    "EVALUATES_ON": 8,
+    "HAS_CHUNK": 12,
+    "IMPLEMENTS": 16,
+    "INTRODUCES": 8,
+    "MENTIONS": 22,
+    "SIMILAR_TO": 11,
+    "SUPPORTED_BY": 59,
+    "USES_METHOD": 5
+  },
+  "stale_source_count": 0
+}

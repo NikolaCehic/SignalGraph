@@ -1,0 +1,342 @@
+[
+  {
+    "ablation": "vector-only",
+    "category": "entity-specific",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ENT-02",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:fc6e5b8d6191",
+      "chunk:297194fc05a0",
+      "chunk:83ff5028526f",
+      "chunk:3b5f99b30064"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "entity-specific",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ENT-02",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "entity-specific",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ENT-04",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "entity-specific",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ENT-06",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:251a3df8a74c",
+      "chunk:fc6e5b8d6191",
+      "chunk:3528d4db9e28",
+      "chunk:3b5f99b30064"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "entity-specific",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ENT-06",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-01",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:83ff5028526f",
+      "chunk:297194fc05a0",
+      "chunk:3528d4db9e28",
+      "chunk:fc6e5b8d6191"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-01",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-02",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:context-recall",
+      "benchmark:benchmark",
+      "benchmark:faithfulness"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-03",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-04",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:297194fc05a0",
+      "chunk:87358b556906",
+      "chunk:83ff5028526f",
+      "chunk:bee20dd0f889"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-06",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:benchmark",
+      "benchmark:faithfulness",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-08",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:83ff5028526f",
+      "chunk:fc6e5b8d6191",
+      "claim:5b33c60ba8dd",
+      "claim:b31740484e82"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-09",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:fc6e5b8d6191",
+      "chunk:83ff5028526f",
+      "chunk:3528d4db9e28",
+      "chunk:297194fc05a0"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-09",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-10",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:3b5f99b30064",
+      "claim:7d416ed3e986",
+      "chunk:87358b556906",
+      "chunk:83ff5028526f"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "decision-memo",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "DEC-10",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "adversarial/uncertainty",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ADV-01",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "adversarial/uncertainty",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ADV-02",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:297194fc05a0",
+      "chunk:3b5f99b30064",
+      "chunk:bee20dd0f889",
+      "chunk:3528d4db9e28"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "global",
+    "category": "adversarial/uncertainty",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ADV-03",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "community:agent-architecture",
+      "benchmark:faithfulness",
+      "benchmark:benchmark",
+      "benchmark:answer-relevance"
+    ],
+    "route": "global",
+    "staleness_detection": 0.8
+  },
+  {
+    "ablation": "vector-only",
+    "category": "adversarial/uncertainty",
+    "failure_reason": "Did not retrieve every required evidence node.",
+    "faithfulness": 1.0,
+    "id": "ADV-04",
+    "required_edge_recall": 0.0,
+    "required_node_recall": 0.0,
+    "retrieved_node_ids": [
+      "chunk:87358b556906",
+      "chunk:fc6e5b8d6191",
+      "claim:34b0a822959c",
+      "claim:7be97478bb3f"
+    ],
+    "route": "vector",
+    "staleness_detection": 0.8
+  }
+]

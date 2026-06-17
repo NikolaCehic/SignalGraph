@@ -1,0 +1,421 @@
+id,query,category,ablation,mode,route,retrieved_node_count,retrieved_chunk_count,retrieved_edge_count,faithfulness,answer_relevance,context_precision,context_recall,graph_path_recall,evidence_chain_completeness,citation_accuracy,conflict_awareness,latency_ms,cost_usd_estimate,required_node_recall,required_edge_recall,path_validity,provenance_coverage,merge_quality,staleness_detection
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.204,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,hybrid,hybrid,hybrid,7,3,3,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,63.342,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,local,local,local,10,3,5,1.0,0.741,1.0,0.5,1.0,1.0,1.0,0.8,142.319,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.8,2.501,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,286.578,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+ENT-01,What evidence does SignalGraph have for GraphRAG paper?,entity-specific,best-route,hybrid,hybrid,7,3,3,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,62.035,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,1.0,2.124,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,hybrid,hybrid,hybrid,6,2,2,1.0,0.741,1.0,0.5,0.8,0.714,1.0,1.0,49.91,0.0,0.5,0.0,1.0,1.0,1.0,0.8
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,local,local,local,8,2,5,1.0,0.741,1.0,0.5,1.0,1.0,1.0,1.0,115.023,0.0,0.5,0.667,1.0,1.0,1.0,0.8
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.3,2.438,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,1.0,280.853,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+ENT-02,What evidence does SignalGraph have for Microsoft GraphRAG repo?,entity-specific,best-route,hybrid,hybrid,6,2,2,1.0,0.741,1.0,0.5,0.8,0.714,1.0,1.0,49.224,0.0,0.5,0.0,1.0,1.0,1.0,0.8
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.14,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,hybrid,hybrid,hybrid,8,3,3,1.0,0.494,1.0,0.5,0.8,0.714,1.0,0.8,61.069,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,local,local,local,8,3,3,1.0,0.494,1.0,0.5,0.6,1.0,1.0,0.8,162.814,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.8,3.541,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.247,1.0,0.5,1.0,0.714,1.0,0.8,294.145,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-03,What evidence does SignalGraph have for MemGPT paper?,entity-specific,best-route,hybrid,hybrid,8,3,3,1.0,0.494,1.0,0.5,0.8,0.714,1.0,0.8,60.478,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,1.0,2.033,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,hybrid,hybrid,hybrid,8,2,5,1.0,0.494,1.0,0.5,0.8,1.0,1.0,1.0,40.931,0.0,0.5,0.667,1.0,1.0,1.0,0.8
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,local,local,local,11,2,6,1.0,0.0,1.0,0.5,1.0,1.0,1.0,1.0,90.577,0.0,0.5,0.333,1.0,1.0,1.0,0.8
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.3,2.443,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,DRIFT-style,drift,drift,10,3,5,1.0,0.247,1.0,1.0,0.8,0.714,1.0,1.0,286.484,0.0,1.0,0.333,1.0,1.0,1.0,1.0
+ENT-04,What evidence does SignalGraph have for cpacker MemGPT repo?,entity-specific,best-route,hybrid,hybrid,8,2,5,1.0,0.494,1.0,0.5,0.8,1.0,1.0,1.0,40.68,0.0,0.5,0.667,1.0,1.0,1.0,0.8
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.247,1.0,0.0,0.2,0.143,1.0,0.8,2.149,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,hybrid,hybrid,hybrid,8,2,5,1.0,0.494,1.0,0.5,0.8,1.0,1.0,0.8,56.705,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,local,local,local,11,1,6,1.0,0.247,1.0,0.5,0.6,1.0,1.0,0.8,244.773,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,global,global,global,4,0,1,1.0,0.247,0.25,0.0,0.0,0.429,1.0,0.8,2.394,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,DRIFT-style,drift,drift,10,2,5,1.0,0.494,1.0,0.0,0.8,1.0,1.0,0.8,281.543,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+ENT-05,What evidence does SignalGraph have for RAG evaluation paper?,entity-specific,best-route,hybrid,hybrid,8,2,5,1.0,0.494,1.0,0.5,0.8,1.0,1.0,0.8,56.135,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,1.0,2.318,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,hybrid,hybrid,hybrid,9,4,5,1.0,0.494,1.0,0.0,0.6,1.0,1.0,1.0,58.041,0.0,0.0,0.333,1.0,1.0,1.0,0.8
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,local,local,local,10,3,5,1.0,0.494,1.0,0.0,0.6,1.0,1.0,1.0,137.201,0.0,0.0,0.333,1.0,1.0,1.0,0.8
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.3,2.57,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,DRIFT-style,drift,drift,10,3,5,1.0,0.247,1.0,0.5,1.0,0.714,1.0,1.0,295.83,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-06,What evidence does SignalGraph have for SignalGraph agent-memory repo?,entity-specific,best-route,hybrid,hybrid,9,4,5,1.0,0.494,1.0,0.0,0.6,1.0,1.0,1.0,62.113,0.0,0.0,0.333,1.0,1.0,1.0,0.8
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.404,1.0,0.0,0.2,0.143,1.0,0.8,2.385,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,hybrid,hybrid,hybrid,8,2,4,1.0,0.808,1.0,0.5,1.0,0.714,1.0,0.8,57.388,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,local,local,local,8,2,4,1.0,0.404,1.0,0.5,0.8,0.714,1.0,0.8,132.61,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,global,global,global,4,0,1,1.0,0.606,0.25,0.0,0.0,0.429,1.0,0.8,2.566,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,DRIFT-style,drift,drift,10,1,5,1.0,0.606,1.0,0.5,1.0,1.0,1.0,0.8,286.233,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ENT-07,What evidence does SignalGraph have for Graph-aware agent memory paper?,entity-specific,best-route,hybrid,hybrid,8,2,4,1.0,0.808,1.0,0.5,1.0,0.714,1.0,0.8,57.847,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.667,1.0,0.0,0.2,0.143,1.0,0.8,2.218,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,hybrid,hybrid,hybrid,6,2,4,1.0,0.667,1.0,0.5,0.6,0.714,1.0,0.8,52.764,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,local,local,local,10,2,5,1.0,0.889,1.0,0.5,0.8,0.714,1.0,0.8,141.204,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.8,2.597,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.444,1.0,0.0,1.0,0.714,1.0,0.8,281.538,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-08,What evidence does SignalGraph have for GraphRAG Foundations paper?,entity-specific,best-route,hybrid,hybrid,6,2,4,1.0,0.667,1.0,0.5,0.6,0.714,1.0,0.8,53.97,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.606,1.0,0.0,0.2,0.143,1.0,0.8,2.306,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,hybrid,hybrid,hybrid,6,1,4,1.0,0.808,1.0,0.5,0.6,0.714,1.0,0.8,46.726,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,local,local,local,8,1,6,1.0,0.606,1.0,0.5,0.6,0.714,1.0,0.8,109.134,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.8,2.478,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,DRIFT-style,drift,drift,10,2,5,1.0,0.404,1.0,0.0,0.8,1.0,1.0,0.8,288.3,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+ENT-09,What evidence does SignalGraph have for Repository Exploration Agents paper?,entity-specific,best-route,hybrid,hybrid,6,1,4,1.0,0.808,1.0,0.5,0.6,0.714,1.0,0.8,46.367,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.833,1.0,0.0,0.2,0.143,1.0,0.8,2.165,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,hybrid,hybrid,hybrid,7,3,3,1.0,0.833,1.0,0.5,0.6,0.714,1.0,0.8,59.121,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,local,local,local,10,3,5,1.0,0.833,1.0,0.5,1.0,1.0,1.0,0.8,141.913,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.5,0.0,0.429,1.0,0.8,2.418,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.556,1.0,0.5,1.0,0.714,1.0,0.8,279.128,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-10,What evidence does SignalGraph have for GraphRAG method node?,entity-specific,best-route,hybrid,hybrid,7,3,3,1.0,0.833,1.0,0.5,0.6,0.714,1.0,0.8,58.441,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.114,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,hybrid,hybrid,hybrid,8,2,4,1.0,0.741,1.0,1.0,1.0,0.714,1.0,0.8,57.891,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,local,local,local,8,2,4,1.0,0.494,1.0,1.0,0.8,0.714,1.0,0.8,131.733,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,global,global,global,4,0,1,1.0,0.494,0.25,0.5,0.0,0.429,1.0,0.8,2.362,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,DRIFT-style,drift,drift,9,3,5,1.0,0.988,1.0,1.0,1.0,0.714,1.0,0.8,280.559,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ENT-11,What evidence does SignalGraph have for Agent Memory method node?,entity-specific,best-route,hybrid,hybrid,8,2,4,1.0,0.741,1.0,1.0,1.0,0.714,1.0,0.8,56.909,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.988,1.0,0.0,0.2,0.143,1.0,0.8,2.067,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,hybrid,hybrid,hybrid,6,4,1,1.0,0.741,1.0,0.5,0.4,0.714,1.0,0.8,63.917,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,local,local,local,8,4,3,1.0,0.741,1.0,0.5,0.6,0.714,1.0,0.8,141.379,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,global,global,global,4,0,1,1.0,0.247,0.25,0.5,0.0,0.429,1.0,0.8,2.696,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,DRIFT-style,drift,drift,10,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,299.311,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-12,What evidence does SignalGraph have for Hybrid Retrieval method node?,entity-specific,best-route,hybrid,hybrid,6,4,1,1.0,0.741,1.0,0.5,0.4,0.714,1.0,0.8,62.08,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.833,1.0,0.0,0.2,0.143,1.0,0.8,2.035,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,hybrid,hybrid,hybrid,5,2,2,1.0,0.833,1.0,0.5,0.6,0.714,1.0,0.8,61.159,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,local,local,local,9,3,4,1.0,0.833,1.0,0.5,0.6,0.714,1.0,0.8,140.449,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,global,global,global,4,0,1,1.0,0.278,0.25,0.5,0.0,0.429,1.0,0.8,2.382,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,DRIFT-style,drift,drift,10,3,5,1.0,0.833,1.0,0.0,1.0,0.714,1.0,0.8,282.618,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+ENT-13,What evidence does SignalGraph have for RAG Evaluation method node?,entity-specific,best-route,hybrid,hybrid,5,2,2,1.0,0.833,1.0,0.5,0.6,0.714,1.0,0.8,61.147,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,vector-only,vector,vector,4,4,0,1.0,1.0,1.0,0.0,0.2,0.143,1.0,0.8,2.193,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,hybrid,hybrid,hybrid,7,2,3,1.0,1.0,1.0,0.0,0.6,0.714,1.0,0.8,60.863,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,local,local,local,9,2,5,1.0,0.667,1.0,0.0,0.6,1.0,1.0,0.8,148.671,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,global,global,global,4,0,1,1.0,0.0,0.25,0.0,0.0,0.429,1.0,0.8,2.367,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,DRIFT-style,drift,drift,10,3,5,1.0,0.444,1.0,0.0,1.0,0.714,1.0,0.8,288.552,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ENT-14,What evidence does SignalGraph have for Hugging Face GraphRAG model?,entity-specific,best-route,hybrid,hybrid,7,2,3,1.0,1.0,1.0,0.0,0.6,0.714,1.0,0.8,59.086,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,vector-only,vector,vector,4,4,0,1.0,0.667,1.0,0.0,0.2,0.143,1.0,0.8,2.013,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,hybrid,hybrid,hybrid,7,2,2,1.0,0.889,1.0,0.5,0.8,1.0,1.0,0.8,64.695,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,local,local,local,11,2,6,1.0,0.667,1.0,0.5,0.8,1.0,1.0,0.8,160.789,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,global,global,global,4,0,1,1.0,0.444,0.25,0.5,0.0,0.429,1.0,0.8,2.469,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,DRIFT-style,drift,drift,10,1,5,1.0,0.667,1.0,0.5,1.0,1.0,1.0,0.8,288.628,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ENT-15,What evidence does SignalGraph have for Agent memory eval dataset?,entity-specific,best-route,hybrid,hybrid,7,2,2,1.0,0.889,1.0,0.5,0.8,1.0,1.0,0.8,64.161,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,vector-only,vector,vector,4,3,0,1.0,0.494,1.0,0.0,0.4,0.143,1.0,0.8,2.237,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,5,3,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,61.191,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,local,local,local,10,2,6,1.0,0.494,1.0,0.0,0.8,0.714,1.0,0.8,139.714,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.609,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,DRIFT-style,drift,drift,8,2,5,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,285.479,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-01,Compare GraphRAG and agent memory for production retrieval decisions.,comparison,best-route,hybrid,comparison,5,3,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,58.026,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.275,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,8,3,5,1.0,0.988,1.0,0.5,0.8,0.714,1.0,0.8,68.577,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,local,local,local,11,3,6,1.0,0.988,1.0,0.5,1.0,1.0,1.0,0.8,137.288,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.508,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,2,6,1.0,0.741,1.0,0.0,1.0,0.714,1.0,0.8,290.292,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-02,Compare vector-only RAG and GraphRAG for production retrieval decisions.,comparison,best-route,hybrid,comparison,8,3,5,1.0,0.988,1.0,0.5,0.8,0.714,1.0,0.8,67.488,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,vector-only,vector,vector,4,3,0,1.0,0.247,1.0,0.0,0.4,0.143,1.0,0.8,2.036,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,4,3,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,65.359,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,local,local,local,8,2,5,1.0,0.494,1.0,0.5,1.0,0.714,1.0,0.8,147.003,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.758,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,DRIFT-style,drift,drift,10,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,290.978,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-03,Compare community detection and hybrid retrieval for production retrieval decisions.,comparison,best-route,hybrid,comparison,4,3,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,65.486,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.247,1.0,0.0,0.2,0.143,1.0,0.8,2.231,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,4,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,68.684,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,local,local,local,10,4,4,1.0,0.741,1.0,0.0,0.8,0.714,1.0,0.8,145.735,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.371,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,DRIFT-style,drift,drift,10,3,6,1.0,0.741,1.0,0.0,1.0,0.714,1.0,0.8,295.394,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-04,Compare Text2Cypher and hybrid retrieval for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,4,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,63.189,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.154,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,10,4,5,1.0,1.0,1.0,0.5,0.8,0.714,1.0,0.8,65.032,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,local,local,local,10,3,5,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,136.389,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.637,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,3,5,1.0,0.741,1.0,1.0,0.8,0.714,1.0,0.8,290.428,0.0,1.0,0.0,1.0,1.0,1.0,1.0
+CMP-05,Compare Microsoft GraphRAG repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,best-route,hybrid,comparison,10,4,5,1.0,1.0,1.0,0.5,0.8,0.714,1.0,0.8,64.835,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.155,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,8,2,4,1.0,1.0,1.0,0.5,0.8,0.714,1.0,0.8,64.745,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,local,local,local,10,2,6,1.0,0.741,1.0,0.5,0.8,0.714,1.0,0.8,143.179,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.397,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,1,4,1.0,0.988,1.0,0.5,0.8,0.714,1.0,0.8,269.665,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-06,Compare MemGPT repo and SignalGraph agent-memory repo for production retrieval decisions.,comparison,best-route,hybrid,comparison,8,2,4,1.0,1.0,1.0,0.5,0.8,0.714,1.0,0.8,62.975,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,2.134,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,4,2,0,1.0,0.988,1.0,0.0,0.4,0.143,1.0,0.8,58.065,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,local,local,local,11,2,6,1.0,0.741,1.0,0.0,0.8,1.0,1.0,0.8,133.245,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,1.0,0.0,0.429,1.0,0.8,2.432,0.0,1.0,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,DRIFT-style,drift,drift,10,3,5,1.0,0.988,1.0,0.0,0.8,0.714,1.0,0.8,295.804,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-07,Compare RAG faithfulness and context recall for production retrieval decisions.,comparison,best-route,hybrid,comparison,4,2,0,1.0,0.988,1.0,0.0,0.4,0.143,1.0,0.8,63.832,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.236,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,4,3,0,1.0,1.0,1.0,0.0,0.2,0.143,1.0,0.8,68.527,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,local,local,local,9,3,4,1.0,0.494,1.0,0.0,0.6,1.0,1.0,0.8,138.464,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.386,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,3,6,1.0,0.741,1.0,0.5,1.0,1.0,1.0,0.8,282.907,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-08,Compare paper evidence and repo evidence for production retrieval decisions.,comparison,best-route,hybrid,comparison,4,3,0,1.0,1.0,1.0,0.0,0.2,0.143,1.0,0.8,60.426,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.015,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,3,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,61.988,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,local,local,local,11,2,7,1.0,0.494,1.0,0.0,0.8,1.0,1.0,0.8,219.56,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,18.274,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,2,6,1.0,0.741,1.0,0.0,1.0,0.714,1.0,0.8,315.747,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-09,Compare dataset cards and model cards for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,3,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,68.634,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,vector-only,vector,vector,4,3,0,1.0,0.494,1.0,0.0,0.4,0.143,1.0,0.8,2.114,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,2,2,1.0,0.988,1.0,0.5,0.8,0.714,1.0,0.8,56.703,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,local,local,local,10,3,6,1.0,0.741,1.0,0.5,0.8,0.714,1.0,0.8,129.675,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.599,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,DRIFT-style,drift,drift,10,2,7,1.0,0.741,1.0,1.0,1.0,1.0,1.0,0.8,278.104,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+CMP-10,Compare GraphRAG Foundations and Graph-aware Agent Memory for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,2,2,1.0,0.988,1.0,0.5,0.8,0.714,1.0,0.8,60.621,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.804,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,8,3,3,1.0,0.988,1.0,0.0,0.8,0.714,1.0,0.8,76.254,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,local,local,local,11,3,6,1.0,0.494,1.0,0.0,0.8,1.0,1.0,0.8,136.792,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.391,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,DRIFT-style,drift,drift,8,2,5,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,271.744,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+CMP-11,Compare RAG evaluation and production repo health for production retrieval decisions.,comparison,best-route,hybrid,comparison,8,3,3,1.0,0.988,1.0,0.0,0.8,0.714,1.0,0.8,63.477,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.04,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,4,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,61.556,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,local,local,local,9,3,4,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,142.604,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.0,0.429,1.0,0.8,2.699,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,DRIFT-style,drift,drift,8,3,4,1.0,0.741,1.0,0.0,0.8,0.714,1.0,0.8,281.635,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-12,Compare claims and source chunks for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,4,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,62.414,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,vector-only,vector,vector,4,3,0,1.0,0.494,1.0,0.0,0.4,0.143,1.0,0.8,2.048,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,2,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,47.921,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,local,local,local,9,1,6,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,118.759,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.0,0.429,1.0,0.8,2.353,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,1,5,1.0,0.741,1.0,0.0,0.8,0.714,1.0,0.8,273.423,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-13,Compare benchmarks and datasets for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,2,2,1.0,0.988,1.0,0.0,0.4,0.714,1.0,0.8,46.655,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.01,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,8,4,3,1.0,0.988,1.0,0.5,0.6,0.714,1.0,0.8,64.258,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,local,local,local,9,3,3,1.0,0.741,1.0,0.5,0.6,0.714,1.0,0.8,150.738,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.0,0.429,1.0,0.8,2.401,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,297.814,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-14,Compare local search and global search for production retrieval decisions.,comparison,best-route,hybrid,comparison,8,4,3,1.0,0.988,1.0,0.5,0.6,0.714,1.0,0.8,68.44,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.2,0.143,1.0,0.8,2.665,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,hybrid,hybrid,hybrid,6,3,2,1.0,0.988,1.0,0.5,0.6,0.714,1.0,0.8,59.715,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,local,local,local,8,2,5,1.0,0.494,1.0,0.5,0.8,0.714,1.0,0.8,128.805,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.0,0.429,1.0,0.8,2.389,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,DRIFT-style,drift,drift,9,3,5,1.0,0.741,1.0,1.0,0.8,0.714,1.0,0.8,276.224,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+CMP-15,Compare DRIFT-style routing and structured lookup for production retrieval decisions.,comparison,best-route,hybrid,comparison,6,3,2,1.0,0.988,1.0,0.5,0.6,0.714,1.0,0.8,55.838,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.2,0.143,1.0,0.8,2.247,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,hybrid,hybrid,hybrid,7,3,3,1.0,0.247,1.0,0.5,0.6,0.714,1.0,0.8,50.655,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,local,local,local,11,3,5,1.0,0.0,1.0,0.5,1.0,0.714,1.0,0.8,114.883,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.2,0.429,1.0,0.8,2.396,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,DRIFT-style,drift,drift,11,2,6,1.0,0.741,1.0,0.5,1.0,1.0,1.0,0.8,272.458,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-01,What are the main themes in GraphRAG and agent memory research?,broad landscape,best-route,global,global,4,0,1,1.0,0.741,1.0,0.5,0.2,0.429,1.0,0.8,2.366,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.2,0.143,1.0,0.8,1.975,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,hybrid,hybrid,hybrid,7,3,2,1.0,0.247,1.0,0.5,0.8,1.0,1.0,0.8,47.335,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,local,local,local,8,1,5,1.0,0.0,1.0,0.5,1.0,1.0,1.0,0.8,245.085,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.2,0.429,1.0,0.8,2.361,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,DRIFT-style,drift,drift,11,3,7,1.0,0.741,1.0,0.0,1.0,1.0,1.0,0.8,298.986,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-02,What are the approaches to RAG evaluation?,broad landscape,best-route,hybrid,hybrid,7,3,2,1.0,0.247,1.0,0.5,0.8,1.0,1.0,0.8,49.611,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.347,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,hybrid,hybrid,hybrid,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,49.647,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,local,local,local,10,3,4,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,130.075,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.696,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,DRIFT-style,drift,drift,10,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,287.507,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-03,What are the implementation risks for research-to-production assistants?,broad landscape,best-route,drift,drift,10,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,282.645,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,2.316,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,hybrid,hybrid,hybrid,8,3,4,1.0,0.741,1.0,0.5,0.6,1.0,1.0,0.8,54.799,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,local,local,local,9,2,4,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,145.472,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.2,0.429,1.0,0.8,2.486,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,DRIFT-style,drift,drift,9,2,6,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,291.937,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-04,What are the community-report signals for global questions?,broad landscape,best-route,hybrid,hybrid,8,3,4,1.0,0.741,1.0,0.5,0.6,1.0,1.0,0.8,54.578,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.0,1.0,0.0,0.4,0.143,1.0,0.8,2.274,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,hybrid,hybrid,hybrid,6,3,3,1.0,0.247,1.0,0.0,0.6,0.714,1.0,0.8,61.891,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,local,local,local,8,2,4,1.0,0.0,1.0,0.0,0.6,0.714,1.0,0.8,131.398,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.469,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,DRIFT-style,drift,drift,11,3,7,1.0,0.494,1.0,0.0,1.0,1.0,1.0,0.8,308.704,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-05,What are the benchmark and dataset coverage in the corpus?,broad landscape,best-route,hybrid,hybrid,6,3,3,1.0,0.247,1.0,0.0,0.6,0.714,1.0,0.8,57.305,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.245,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,hybrid,hybrid,hybrid,7,2,3,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,51.937,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,local,local,local,10,2,5,1.0,0.741,1.0,0.5,0.6,0.714,1.0,0.8,127.728,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.453,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,DRIFT-style,drift,drift,10,3,5,1.0,0.741,1.0,0.0,1.0,0.714,1.0,0.8,289.528,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-06,What are the repo health patterns across GraphRAG implementations?,broad landscape,best-route,hybrid,hybrid,7,2,3,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,49.897,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.5,0.4,0.143,1.0,0.8,2.3,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,hybrid,hybrid,hybrid,5,1,3,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,50.434,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,local,local,local,8,2,4,1.0,0.741,1.0,0.5,0.8,0.714,1.0,0.8,159.254,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.958,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,DRIFT-style,drift,drift,9,2,6,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,294.997,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-07,What are the how claims connect papers to source chunks?,broad landscape,best-route,hybrid,hybrid,5,1,3,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,50.011,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,2.029,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,hybrid,hybrid,hybrid,6,1,3,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,59.188,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,local,local,local,7,2,4,1.0,0.247,1.0,0.0,0.6,0.714,1.0,0.8,132.167,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.563,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,DRIFT-style,drift,drift,8,3,4,1.0,0.494,1.0,0.0,0.8,0.714,1.0,0.8,297.197,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-08,What are the how methods connect repos and papers?,broad landscape,best-route,hybrid,hybrid,6,1,3,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,57.57,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,2.244,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,hybrid,hybrid,hybrid,7,1,4,1.0,0.247,1.0,0.0,0.8,1.0,1.0,0.8,54.86,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,local,local,local,9,2,4,1.0,0.247,1.0,0.0,0.8,1.0,1.0,0.8,274.594,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.619,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,DRIFT-style,drift,drift,11,2,6,1.0,0.741,1.0,0.5,1.0,1.0,1.0,0.8,310.83,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-09,What are the where uncertainty appears in retrieved evidence?,broad landscape,best-route,hybrid,hybrid,7,1,4,1.0,0.247,1.0,0.0,0.8,1.0,1.0,0.8,55.011,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.4,0.143,1.0,0.8,2.298,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,hybrid,hybrid,hybrid,7,3,3,1.0,0.741,1.0,0.0,0.6,0.714,1.0,0.8,54.895,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,local,local,local,9,3,5,1.0,0.247,1.0,0.0,0.8,0.714,1.0,0.8,136.617,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.58,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,DRIFT-style,drift,drift,9,3,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,280.704,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-10,What are the evidence chains useful for decision memos?,broad landscape,best-route,drift,drift,9,3,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,285.773,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.315,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,hybrid,hybrid,hybrid,8,4,4,1.0,0.741,1.0,0.0,0.8,1.0,1.0,0.8,57.82,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,local,local,local,11,4,4,1.0,0.247,1.0,0.0,0.8,1.0,1.0,0.8,155.539,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.598,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,DRIFT-style,drift,drift,9,3,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,284.983,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-11,What are the the practical asset layer for models and datasets?,broad landscape,best-route,hybrid,hybrid,8,4,4,1.0,0.741,1.0,0.0,0.8,1.0,1.0,0.8,56.096,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.741,1.0,0.0,0.2,0.143,1.0,0.8,2.177,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,hybrid,hybrid,hybrid,8,2,4,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,43.516,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,local,local,local,12,2,6,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,119.813,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.5,0.2,0.429,1.0,0.8,2.356,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,DRIFT-style,drift,drift,10,3,7,1.0,0.741,1.0,0.5,1.0,1.0,1.0,0.8,299.929,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-12,What are the graph traversal patterns behind SignalGraph answers?,broad landscape,best-route,hybrid,hybrid,8,2,4,1.0,0.741,1.0,0.5,0.8,1.0,1.0,0.8,43.984,0.0,0.5,0.333,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.2,0.143,1.0,0.8,2.323,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,hybrid,hybrid,hybrid,6,3,2,1.0,0.494,1.0,0.5,0.8,0.714,1.0,0.8,57.997,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,local,local,local,10,1,5,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,173.507,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.388,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,DRIFT-style,drift,drift,11,3,7,1.0,0.494,1.0,0.5,1.0,1.0,1.0,0.8,298.09,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-13,What are the citation and contradiction patterns in the sample graph?,broad landscape,best-route,hybrid,hybrid,6,3,2,1.0,0.494,1.0,0.5,0.8,0.714,1.0,0.8,53.763,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.2,0.143,1.0,0.8,2.258,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,hybrid,hybrid,hybrid,6,4,1,1.0,0.247,1.0,0.0,0.6,0.714,1.0,0.8,57.054,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,local,local,local,10,4,4,1.0,0.0,1.0,0.0,0.8,0.714,1.0,0.8,132.291,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.399,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,DRIFT-style,drift,drift,10,3,5,1.0,0.741,1.0,0.5,1.0,0.714,1.0,0.8,292.677,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+LAN-14,What are the methods most central to agent architecture?,broad landscape,best-route,hybrid,hybrid,6,4,1,1.0,0.247,1.0,0.0,0.6,0.714,1.0,0.8,55.964,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.5,0.4,0.143,1.0,0.8,2.001,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,hybrid,hybrid,hybrid,6,1,3,1.0,0.247,1.0,0.5,0.8,0.714,1.0,0.8,53.071,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,local,local,local,7,2,3,1.0,0.247,1.0,0.5,0.6,0.714,1.0,0.8,134.46,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,global,global,global,4,0,1,1.0,0.741,1.0,0.0,0.2,0.429,1.0,0.8,2.521,0.0,0.0,0.333,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,DRIFT-style,drift,drift,9,2,6,1.0,0.494,1.0,0.0,1.0,0.714,1.0,0.8,299.424,0.0,0.0,0.667,1.0,1.0,1.0,1.0
+LAN-15,What are the source provenance patterns across the graph?,broad landscape,best-route,hybrid,hybrid,6,1,3,1.0,0.247,1.0,0.5,0.8,0.714,1.0,0.8,53.044,0.0,0.5,0.667,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,vector-only,vector,vector,4,3,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.065,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,hybrid,hybrid,hybrid,7,2,3,1.0,0.556,1.0,0.5,0.333,0.714,1.0,0.8,50.135,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,local,local,local,9,3,5,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,124.774,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.632,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,DRIFT-style,drift,drift,9,3,5,1.0,0.278,1.0,0.0,0.5,0.714,1.0,0.8,282.317,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-01,Which repos implement papers about GraphRAG?,structured,best-route,structured_lookup,structured_lookup,7,0,2,1.0,0.833,1.0,1.0,0.333,0.429,1.0,0.8,5.061,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,vector-only,vector,vector,4,3,0,1.0,0.0,1.0,0.0,0.0,0.143,1.0,0.8,2.123,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,hybrid,hybrid,hybrid,5,1,3,1.0,0.556,1.0,0.0,0.333,0.714,1.0,0.8,47.317,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,local,local,local,9,2,6,1.0,0.0,1.0,0.0,0.5,0.714,1.0,0.8,122.77,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.624,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,DRIFT-style,drift,drift,10,2,6,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,310.024,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-02,Which repos implement papers about agent memory?,structured,best-route,structured_lookup,structured_lookup,6,0,2,1.0,0.833,1.0,1.0,0.333,0.429,1.0,0.8,5.04,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,vector-only,vector,vector,4,4,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.156,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,hybrid,hybrid,hybrid,6,3,2,1.0,0.556,1.0,0.0,0.333,1.0,1.0,0.8,58.109,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,local,local,local,12,3,5,1.0,0.0,1.0,0.0,0.667,1.0,1.0,0.8,273.909,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.5,0.333,0.429,1.0,0.8,2.627,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,DRIFT-style,drift,drift,11,3,7,1.0,0.278,1.0,0.0,0.5,1.0,1.0,0.8,300.603,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-03,Which methods are connected to benchmark evidence?,structured,best-route,hybrid,hybrid,6,3,2,1.0,0.556,1.0,0.0,0.333,1.0,1.0,0.8,58.473,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.0,0.143,1.0,0.8,2.103,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,hybrid,hybrid,hybrid,7,1,5,1.0,0.556,1.0,0.5,0.667,0.714,1.0,0.8,54.12,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,local,local,local,9,1,5,1.0,0.0,1.0,0.5,0.667,0.714,1.0,0.8,134.062,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.416,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,DRIFT-style,drift,drift,10,2,6,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,289.615,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-04,Which papers cite or are cited by Graph-aware Agent Memory?,structured,best-route,hybrid,hybrid,7,1,5,1.0,0.556,1.0,0.5,0.667,0.714,1.0,0.8,55.2,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,vector-only,vector,vector,4,3,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.257,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,hybrid,hybrid,hybrid,7,3,4,1.0,0.556,1.0,0.5,0.333,0.714,1.0,0.8,49.491,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,local,local,local,8,3,5,1.0,0.278,1.0,0.0,0.333,0.714,1.0,0.8,140.372,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.372,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,DRIFT-style,drift,drift,10,3,5,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,292.729,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-05,Which repos have source chunks tied to production risk?,structured,best-route,drift,drift,10,3,5,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,292.828,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,vector-only,vector,vector,4,4,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.035,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,hybrid,hybrid,hybrid,7,3,3,1.0,0.556,1.0,0.5,0.333,0.714,1.0,0.8,61.841,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,local,local,local,10,4,4,1.0,0.0,1.0,0.5,0.5,0.714,1.0,0.8,151.528,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.5,0.333,0.429,1.0,0.8,2.382,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,DRIFT-style,drift,drift,8,2,6,1.0,0.278,1.0,0.5,0.5,0.714,1.0,0.8,295.24,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-06,Which methods belong to the agent architecture community?,structured,best-route,hybrid,hybrid,7,3,3,1.0,0.556,1.0,0.5,0.333,0.714,1.0,0.8,60.641,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,vector-only,vector,vector,4,4,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.123,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,hybrid,hybrid,hybrid,7,4,2,1.0,0.556,1.0,0.0,0.167,0.714,1.0,0.8,50.191,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,local,local,local,12,4,3,1.0,0.278,1.0,0.0,0.5,1.0,1.0,0.8,129.63,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.53,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,DRIFT-style,drift,drift,11,3,7,1.0,0.278,1.0,0.0,0.5,1.0,1.0,0.8,301.757,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+STR-07,Which assets belong to the Hugging Face evaluation layer?,structured,best-route,hybrid,hybrid,7,4,2,1.0,0.556,1.0,0.0,0.167,0.714,1.0,0.8,55.768,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,vector-only,vector,vector,4,2,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.037,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,hybrid,hybrid,hybrid,6,2,2,1.0,0.556,1.0,0.0,0.333,0.714,1.0,0.8,63.597,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,local,local,local,7,1,4,1.0,0.278,1.0,0.5,0.5,1.0,1.0,0.8,207.911,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.5,0.333,0.429,1.0,0.8,2.51,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,DRIFT-style,drift,drift,11,1,5,1.0,0.278,1.0,0.0,0.5,1.0,1.0,0.8,320.465,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-08,Which paper evaluates on faithfulness and context recall?,structured,best-route,hybrid,hybrid,6,2,2,1.0,0.556,1.0,0.0,0.333,0.714,1.0,0.8,62.031,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,vector-only,vector,vector,4,3,0,1.0,0.0,1.0,0.0,0.0,0.143,1.0,0.8,2.108,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,hybrid,hybrid,hybrid,7,2,4,1.0,0.556,1.0,0.5,0.5,1.0,1.0,0.8,56.287,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,local,local,local,9,2,5,1.0,0.0,1.0,0.5,0.667,1.0,1.0,0.8,257.792,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.412,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,DRIFT-style,drift,drift,11,3,7,1.0,0.278,1.0,0.5,0.5,1.0,1.0,0.8,304.471,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-09,Which repo claims recent benchmark coverage?,structured,best-route,hybrid,hybrid,7,2,4,1.0,0.556,1.0,0.5,0.5,1.0,1.0,0.8,58.181,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,vector-only,vector,vector,4,3,0,1.0,0.278,1.0,0.0,0.0,0.143,1.0,0.8,2.029,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,hybrid,hybrid,hybrid,11,1,5,1.0,0.556,1.0,1.0,0.667,0.714,1.0,0.8,71.408,0.0,1.0,0.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,local,local,local,12,1,6,1.0,0.278,1.0,1.0,0.667,1.0,1.0,0.8,262.887,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,global,global,global,4,0,1,1.0,0.278,1.0,0.0,0.333,0.429,1.0,0.8,2.46,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,DRIFT-style,drift,drift,8,2,5,1.0,0.278,1.0,0.0,0.333,1.0,1.0,0.8,278.568,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+STR-10,Which graph paths connect Microsoft GraphRAG to RAG evaluation?,structured,best-route,hybrid,hybrid,11,1,5,1.0,0.556,1.0,1.0,0.667,0.714,1.0,0.8,70.177,0.0,1.0,0.0,1.0,1.0,1.0,1.0
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.167,0.143,1.0,1.0,2.218,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,hybrid,hybrid,hybrid,8,2,4,1.0,0.635,1.0,0.5,0.833,1.0,1.0,1.0,65.889,0.0,0.5,0.5,1.0,1.0,1.0,0.8
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,local,local,local,11,3,6,1.0,0.317,1.0,0.5,1.0,1.0,1.0,1.0,153.086,0.0,0.5,1.0,1.0,1.0,1.0,0.8
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.521,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,DRIFT-style,drift,drift,12,2,5,1.0,0.317,1.0,0.5,0.833,1.0,1.0,1.0,298.737,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-01,Which GraphRAG implementation should a startup evaluate first for enterprise support automation?,decision-memo,best-route,drift,drift,12,2,5,1.0,0.317,1.0,0.5,0.833,1.0,1.0,1.0,301.553,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,vector-only,vector,vector,4,3,0,1.0,0.0,1.0,0.0,0.333,0.143,1.0,1.0,9.292,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,hybrid,hybrid,hybrid,6,3,2,1.0,0.635,1.0,0.5,0.667,1.0,1.0,1.0,187.268,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,local,local,local,9,2,6,1.0,0.0,1.0,0.5,0.833,1.0,1.0,1.0,235.059,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.455,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,DRIFT-style,drift,drift,9,2,4,1.0,0.317,1.0,0.5,1.0,1.0,1.0,1.0,323.761,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-02,Should a team use agent memory or GraphRAG for long-term assistant context?,decision-memo,best-route,drift,drift,9,2,4,1.0,0.317,1.0,0.5,1.0,1.0,1.0,1.0,317.518,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.167,0.143,1.0,1.0,2.169,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,hybrid,hybrid,hybrid,10,3,5,1.0,0.635,1.0,0.0,0.667,0.714,1.0,1.0,131.942,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,local,local,local,10,3,5,1.0,0.0,1.0,0.0,0.667,0.714,1.0,1.0,135.375,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.972,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,DRIFT-style,drift,drift,12,2,6,1.0,0.317,1.0,0.5,1.0,1.0,1.0,1.0,548.589,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+DEC-03,Should the SignalGraph sample repo be treated as production-ready?,decision-memo,best-route,drift,drift,12,2,6,1.0,0.317,1.0,0.5,1.0,1.0,1.0,1.0,1282.4,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.317,1.0,0.0,0.167,0.143,1.0,1.0,2.332,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,hybrid,hybrid,hybrid,10,2,4,1.0,0.635,1.0,0.0,0.833,1.0,1.0,0.3,83.961,0.0,0.0,0.5,1.0,1.0,1.0,0.8
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,local,local,local,12,2,4,1.0,0.317,1.0,0.0,0.833,1.0,1.0,0.3,442.17,0.0,0.0,1.0,1.0,1.0,1.0,0.8
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.5,0.167,0.429,1.0,0.3,4.539,0.0,0.5,0.0,1.0,1.0,1.0,0.8
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,DRIFT-style,drift,drift,9,3,5,1.0,0.317,1.0,0.0,0.833,0.714,1.0,1.0,384.741,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-04,Which evaluation route should be used before adopting a GraphRAG repo?,decision-memo,best-route,drift,drift,9,3,5,1.0,0.317,1.0,0.0,0.833,0.714,1.0,1.0,318.246,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.317,1.0,0.0,0.167,0.143,1.0,1.0,2.685,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,hybrid,hybrid,hybrid,7,4,2,1.0,0.635,1.0,0.5,0.5,1.0,1.0,1.0,72.761,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,local,local,local,8,1,4,1.0,0.0,1.0,0.5,0.667,1.0,1.0,0.3,290.293,0.0,0.5,1.0,1.0,1.0,1.0,0.8
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.5,0.167,0.429,1.0,0.3,2.757,0.0,0.5,0.5,1.0,1.0,1.0,0.8
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,DRIFT-style,drift,drift,9,3,5,1.0,0.317,1.0,0.5,1.0,0.714,1.0,1.0,312.125,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+DEC-05,Should vector-only retrieval be considered enough for broad landscape questions?,decision-memo,best-route,drift,drift,9,3,5,1.0,0.317,1.0,0.5,1.0,0.714,1.0,1.0,333.617,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.167,0.143,1.0,1.0,2.581,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,hybrid,hybrid,hybrid,7,3,4,1.0,0.635,1.0,0.0,0.667,1.0,1.0,1.0,61.77,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,local,local,local,11,3,5,1.0,0.0,1.0,0.5,0.833,1.0,1.0,1.0,320.916,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.782,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,DRIFT-style,drift,drift,12,2,6,1.0,0.317,1.0,0.0,1.0,1.0,1.0,1.0,313.975,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+DEC-06,Which implementation has the strongest source-grounded repo-health signal?,decision-memo,best-route,hybrid,hybrid,7,3,4,1.0,0.635,1.0,0.0,0.667,1.0,1.0,1.0,54.64,0.0,0.0,0.5,1.0,1.0,1.0,1.0
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.0,1.0,0.0,0.167,0.143,1.0,1.0,2.1,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,hybrid,hybrid,hybrid,9,3,5,1.0,0.635,1.0,0.0,0.833,0.714,1.0,1.0,64.614,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,local,local,local,9,3,5,1.0,0.635,1.0,0.0,0.833,0.714,1.0,1.0,182.595,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,3.308,0.0,0.0,1.0,1.0,1.0,1.0,0.8
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,DRIFT-style,drift,drift,9,3,5,1.0,0.317,1.0,0.0,1.0,0.714,1.0,1.0,292.537,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+DEC-07,Should Hugging Face assets be part of a production adoption review?,decision-memo,best-route,drift,drift,9,3,5,1.0,0.317,1.0,0.0,1.0,0.714,1.0,1.0,338.754,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,vector-only,vector,vector,4,2,0,1.0,0.317,1.0,0.0,0.333,0.143,1.0,1.0,2.302,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,hybrid,hybrid,hybrid,8,2,4,1.0,0.635,1.0,0.5,0.833,0.714,1.0,1.0,56.357,0.0,0.5,0.5,1.0,1.0,1.0,0.8
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,local,local,local,9,3,4,1.0,0.0,1.0,0.5,0.667,0.714,1.0,1.0,135.64,0.0,0.5,0.5,1.0,1.0,1.0,1.0
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.5,0.167,0.429,1.0,0.3,2.679,0.0,0.5,0.5,1.0,1.0,1.0,0.8
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,DRIFT-style,drift,drift,10,3,5,1.0,0.317,1.0,1.0,1.0,0.714,1.0,1.0,299.749,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+DEC-08,What should be checked before relying on GraphRAG community reports?,decision-memo,best-route,drift,drift,10,3,5,1.0,0.317,1.0,1.0,1.0,0.714,1.0,1.0,306.454,0.0,1.0,0.5,1.0,1.0,1.0,1.0
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,vector-only,vector,vector,4,4,0,1.0,0.317,1.0,0.0,0.167,0.143,1.0,1.0,2.088,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,hybrid,hybrid,hybrid,8,3,3,1.0,0.635,1.0,0.5,0.833,0.714,1.0,1.0,55.988,0.0,0.5,0.333,1.0,1.0,1.0,0.8
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,local,local,local,10,3,5,1.0,0.317,1.0,1.0,1.0,0.714,1.0,1.0,141.498,0.0,1.0,0.667,1.0,1.0,1.0,0.8
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.417,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,DRIFT-style,drift,drift,11,4,6,1.0,0.317,1.0,1.0,1.0,0.714,1.0,1.0,399.869,0.0,1.0,0.333,1.0,1.0,1.0,1.0
+DEC-09,Which evidence chain best supports a startup GraphRAG pilot?,decision-memo,best-route,drift,drift,11,4,6,1.0,0.317,1.0,1.0,1.0,0.714,1.0,1.0,314.765,0.0,1.0,0.333,1.0,1.0,1.0,1.0
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,vector-only,vector,vector,4,3,0,1.0,0.317,1.0,0.0,0.333,0.143,1.0,1.0,2.488,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,hybrid,hybrid,hybrid,6,2,2,1.0,0.635,1.0,1.0,0.667,1.0,1.0,1.0,50.733,0.0,1.0,0.0,1.0,1.0,1.0,0.8
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,local,local,local,9,2,4,1.0,0.0,1.0,0.5,0.833,0.714,1.0,1.0,144.653,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,global,global,global,4,0,1,1.0,0.317,1.0,0.0,0.167,0.429,1.0,0.3,2.55,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,DRIFT-style,drift,drift,10,4,5,1.0,0.317,1.0,0.0,1.0,0.714,1.0,1.0,297.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+DEC-10,Should Text2Cypher be evaluated as a companion to hybrid retrieval?,decision-memo,best-route,drift,drift,10,4,5,1.0,0.317,1.0,0.0,1.0,0.714,1.0,1.0,292.356,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.25,0.143,1.0,1.0,2.16,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,hybrid,hybrid,hybrid,9,5,4,1.0,0.494,1.0,0.0,0.75,1.0,1.0,1.0,61.056,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,local,local,local,10,4,4,1.0,0.247,1.0,0.5,0.75,1.0,1.0,1.0,159.524,0.0,0.5,1.0,1.0,1.0,1.0,0.8
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,global,global,global,4,0,1,1.0,0.247,0.75,0.0,0.0,0.429,1.0,0.3,2.532,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,DRIFT-style,drift,drift,12,2,6,1.0,0.494,1.0,0.0,1.0,1.0,1.0,1.0,298.496,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ADV-01,Which repo is definitely production-ready with no risks?,adversarial/uncertainty,best-route,drift,drift,12,2,6,1.0,0.494,1.0,0.0,1.0,1.0,1.0,1.0,296.878,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,vector-only,vector,vector,4,4,0,1.0,0.494,1.0,0.0,0.25,0.143,1.0,1.0,2.33,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,hybrid,hybrid,hybrid,8,4,4,1.0,0.494,1.0,0.0,0.75,1.0,1.0,1.0,63.315,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,local,local,local,8,3,4,1.0,0.494,1.0,0.0,0.75,1.0,1.0,1.0,152.241,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,global,global,global,4,0,1,1.0,0.247,0.75,0.5,0.0,0.429,1.0,0.3,2.355,0.0,0.5,0.0,1.0,1.0,1.0,0.8
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,DRIFT-style,drift,drift,8,2,5,1.0,0.494,0.75,0.0,1.0,1.0,1.0,1.0,279.968,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-02,Can SignalGraph prove an uncited benchmark win for every GraphRAG method?,adversarial/uncertainty,best-route,hybrid,hybrid,8,4,4,1.0,0.494,1.0,0.0,0.75,1.0,1.0,1.0,63.756,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,vector-only,vector,vector,4,3,0,1.0,0.741,1.0,0.0,0.5,0.143,1.0,1.0,2.081,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,hybrid,hybrid,hybrid,7,2,4,1.0,0.494,1.0,0.0,0.75,0.714,1.0,1.0,55.345,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,local,local,local,8,2,4,1.0,0.741,1.0,0.0,0.75,0.714,1.0,1.0,147.258,0.0,0.0,0.0,1.0,1.0,1.0,1.0
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,global,global,global,4,0,1,1.0,0.247,0.75,0.0,0.0,0.429,1.0,0.3,2.504,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,DRIFT-style,drift,drift,11,2,6,1.0,0.494,1.0,0.0,1.0,1.0,1.0,1.0,299.072,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ADV-03,Should stale repo health claims be trusted without last-commit evidence?,adversarial/uncertainty,best-route,drift,drift,11,2,6,1.0,0.494,1.0,0.0,1.0,1.0,1.0,1.0,305.376,0.0,0.0,1.0,1.0,1.0,1.0,1.0
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,vector-only,vector,vector,4,2,0,1.0,0.741,1.0,0.0,0.5,0.143,1.0,1.0,5.078,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,hybrid,hybrid,hybrid,6,2,2,1.0,0.494,1.0,0.0,0.5,1.0,1.0,0.3,60.493,0.0,0.0,1.0,1.0,1.0,1.0,0.8
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,local,local,local,8,1,4,1.0,0.494,0.75,0.0,0.5,1.0,1.0,0.3,225.04,0.0,0.0,1.0,1.0,1.0,1.0,0.8
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,global,global,global,4,0,1,1.0,0.247,0.75,0.0,0.0,0.429,1.0,0.3,2.415,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,DRIFT-style,drift,drift,11,2,6,1.0,0.494,1.0,0.5,1.0,1.0,1.0,1.0,379.432,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ADV-04,What answer should be given when required source spans are missing?,adversarial/uncertainty,best-route,drift,drift,11,2,6,1.0,0.494,1.0,0.5,1.0,1.0,1.0,1.0,344.966,0.0,0.5,1.0,1.0,1.0,1.0,1.0
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,vector-only,vector,vector,4,3,0,1.0,0.494,1.0,0.0,0.5,0.143,1.0,1.0,2.581,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,hybrid,hybrid,hybrid,7,2,2,1.0,0.494,1.0,0.5,0.75,1.0,1.0,1.0,63.859,0.0,0.5,0.0,1.0,1.0,1.0,0.8
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,local,local,local,9,1,6,1.0,0.494,1.0,0.5,1.0,1.0,1.0,1.0,172.786,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,global,global,global,4,0,1,1.0,0.247,0.75,0.0,0.0,0.429,1.0,0.3,3.031,0.0,0.0,0.0,1.0,1.0,1.0,0.8
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,DRIFT-style,drift,drift,9,2,6,1.0,0.494,1.0,0.5,1.0,0.714,1.0,1.0,279.077,0.0,0.5,0.0,1.0,1.0,1.0,1.0
+ADV-05,Can agent memory be declared superior to GraphRAG for all assistant workloads?,adversarial/uncertainty,best-route,hybrid,hybrid,7,2,2,1.0,0.494,1.0,0.5,0.75,1.0,1.0,1.0,64.464,0.0,0.5,0.0,1.0,1.0,1.0,0.8
