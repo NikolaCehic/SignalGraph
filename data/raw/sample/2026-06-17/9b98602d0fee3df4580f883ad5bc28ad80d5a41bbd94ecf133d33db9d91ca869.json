@@ -1,0 +1,14 @@
+{
+  "abstract": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks.",
+  "arxiv_id": "2404.16130",
+  "authors": [
+    "Darren Edge",
+    "Ha Trinh"
+  ],
+  "citation_count": 128,
+  "id": "paper:sample:graphrag",
+  "kind": "paper",
+  "published_at": "2024-04-24",
+  "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+  "venue": "arXiv"
+}

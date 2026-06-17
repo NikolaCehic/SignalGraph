@@ -1,0 +1,12 @@
+{
+  "abstract": "RAG evaluation should include faithfulness, answer relevance, context precision, context recall, graph path recall, and evidence-chain completeness. Benchmarks are strongest when they compare vector-only retrieval against graph-aware retrieval.",
+  "authors": [
+    "Alex Evaluator"
+  ],
+  "citation_count": 42,
+  "id": "paper:sample:rag-eval",
+  "kind": "paper",
+  "published_at": "2024-08-01",
+  "title": "RAG Evaluation with Faithfulness and Context Recall",
+  "venue": "OpenAlex sample"
+}
