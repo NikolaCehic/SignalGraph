@@ -1,0 +1,8 @@
+.workflow/
+.env
+.env.local
+__pycache__/
+*.pyc
+.pytest_cache/
+$tmp_root/
+.DS_Store
