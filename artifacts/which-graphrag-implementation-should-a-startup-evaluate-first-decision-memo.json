@@ -1,0 +1,496 @@
+{
+  "answer": {
+    "answer": "The decision-grade answer combines community report breadth with local evidence chains: GraphRAG and agent memory systems can connect papers, repositories, datasets, and evaluation benchmarks for production assistants.; GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-ho...; Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluatio...",
+    "citations": [
+      {
+        "labels": [
+          "DocumentChunk"
+        ],
+        "node_id": "chunk:297194fc05a0",
+        "score": 0.6869,
+        "source_span": "GraphRAG and agent memory systems can connect papers, repositories, datasets, and evaluation benchmarks for production assistants.",
+        "source_url": "https://www.semanticscholar.org/paper/S2-GRAPHRAG-MEMORY"
+      },
+      {
+        "labels": [
+          "DocumentChunk"
+        ],
+        "node_id": "chunk:fc6e5b8d6191",
+        "score": 0.6409,
+        "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks.",
+        "source_url": "https://arxiv.org/abs/2404.16130"
+      },
+      {
+        "labels": [
+          "Repo"
+        ],
+        "node_id": "repo:example/signalgraph-agent-memory",
+        "score": 0.6279,
+        "source_span": "Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluation of persisted context. Agent Memory Persistent or retrieved memory patterns for...",
+        "source_url": "https://github.com/example/signalgraph-agent-memory"
+      },
+      {
+        "labels": [
+          "Repo"
+        ],
+        "node_id": "repo:microsoft/graphrag",
+        "score": 0.6293,
+        "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipe...",
+        "source_url": "https://github.com/microsoft/graphrag"
+      },
+      {
+        "labels": [
+          "Community"
+        ],
+        "node_id": "community:agent-architecture",
+        "score": 0.6221,
+        "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. graphrag mi...",
+        "source_url": "local://signalgraph/community"
+      },
+      {
+        "labels": [
+          "Claim"
+        ],
+        "node_id": "claim:5b33c60ba8dd",
+        "score": 0.6271,
+        "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus.",
+        "source_url": "https://arxiv.org/abs/2404.16130"
+      }
+    ],
+    "confidence": 0.641,
+    "conflicts_or_missing_evidence": [
+      "Retrieved evidence includes cautionary or limitation language; treat recommendation as conditional.",
+      "No explicit benchmark or dataset node was retrieved for the top evidence chain."
+    ],
+    "evidence_chain": [
+      [
+        "claim:b31740484e82",
+        "BELONGS_TO_COMMUNITY",
+        "community:agent-architecture",
+        "<-BELONGS_TO_COMMUNITY",
+        "chunk:297194fc05a0"
+      ],
+      [
+        "paper:sample:graphrag",
+        "CLAIMS",
+        "claim:5b33c60ba8dd",
+        "SUPPORTED_BY",
+        "chunk:fc6e5b8d6191"
+      ],
+      [
+        "chunk:9300a3545ee0",
+        "MENTIONS",
+        "method:agent-memory",
+        "<-USES_METHOD",
+        "repo:example/signalgraph-agent-memory"
+      ],
+      [
+        "claim:b31740484e82",
+        "SUPPORTED_BY",
+        "chunk:83ff5028526f",
+        "<-HAS_CHUNK",
+        "repo:microsoft/graphrag"
+      ],
+      [
+        "claim:b31740484e82",
+        "<-CLAIMS",
+        "repo:microsoft/graphrag",
+        "IMPLEMENTS",
+        "paper:sample:rag-eval",
+        "BELONGS_TO_COMMUNITY",
+        "community:agent-architecture"
+      ],
+      [
+        "paper:sample:memgpt",
+        "CLAIMS",
+        "claim:d12728f4e06b",
+        "<-CONTRADICTS",
+        "claim:5b33c60ba8dd"
+      ],
+      [
+        "claim:b31740484e82",
+        "BELONGS_TO_COMMUNITY",
+        "community:agent-architecture",
+        "<-BELONGS_TO_COMMUNITY",
+        "chunk:297194fc05a0"
+      ],
+      [
+        "paper:sample:graphrag",
+        "CLAIMS",
+        "claim:5b33c60ba8dd",
+        "SUPPORTED_BY",
+        "chunk:fc6e5b8d6191"
+      ],
+      [
+        "community:agent-architecture",
+        "<-BELONGS_TO_COMMUNITY",
+        "chunk:251a3df8a74c",
+        "<-SUPPORTED_BY",
+        "claim:dec599dc88b9"
+      ],
+      [
+        "chunk:9300a3545ee0",
+        "MENTIONS",
+        "method:agent-memory",
+        "<-USES_METHOD",
+        "repo:example/signalgraph-agent-memory"
+      ]
+    ],
+    "next_checks": [
+      "Open the saved Cypher evidence-path query in Neo4j Browser.",
+      "Inspect raw source records for the cited spans.",
+      "Add benchmark or dataset extraction for the target method."
+    ],
+    "production_recommendation": "Evaluate the linked implementation first, but require a small reproduction pass and repo-health review before adoption.",
+    "query": "Which GraphRAG implementation should a startup evaluate first?",
+    "reasoning": "SignalGraph routed the query to drift retrieval and ranked evidence by semantic/lexical relevance, graph path quality, source quality, freshness, confidence, and evidence strength.",
+    "route": "drift"
+  },
+  "comparison": {
+    "cost_usd_estimate": {
+      "graph_rag": 0.0,
+      "vector_only": 0.0
+    },
+    "evidence_chain_completeness": {
+      "graph_rag": 1.0,
+      "vector_only": 0.143
+    },
+    "faithfulness_estimate": {
+      "graph_rag": 1.0,
+      "vector_only": 0.657
+    },
+    "graph_rag": {
+      "answer": "The decision-grade answer combines community report breadth with local evidence chains: GraphRAG and agent memory systems can connect papers, repositories, datasets, and evaluation benchmarks for production assistants.; GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-ho...; Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluatio...",
+      "citations": [
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:297194fc05a0",
+          "score": 0.6869,
+          "source_span": "GraphRAG and agent memory systems can connect papers, repositories, datasets, and evaluation benchmarks for production assistants.",
+          "source_url": "https://www.semanticscholar.org/paper/S2-GRAPHRAG-MEMORY"
+        },
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:fc6e5b8d6191",
+          "score": 0.6409,
+          "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks.",
+          "source_url": "https://arxiv.org/abs/2404.16130"
+        },
+        {
+          "labels": [
+            "Repo"
+          ],
+          "node_id": "repo:example/signalgraph-agent-memory",
+          "score": 0.6279,
+          "source_span": "Agent memory systems manage short-term and long-term context for language agents. The approach highlights production risks around memory freshness, retrieval policy, and evaluation of persisted context. Agent Memory Persistent or retrieved memory patterns for...",
+          "source_url": "https://github.com/example/signalgraph-agent-memory"
+        },
+        {
+          "labels": [
+            "Repo"
+          ],
+          "node_id": "repo:microsoft/graphrag",
+          "score": 0.6293,
+          "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipe...",
+          "source_url": "https://github.com/microsoft/graphrag"
+        },
+        {
+          "labels": [
+            "Community"
+          ],
+          "node_id": "community:agent-architecture",
+          "score": 0.6221,
+          "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. graphrag mi...",
+          "source_url": "local://signalgraph/community"
+        },
+        {
+          "labels": [
+            "Claim"
+          ],
+          "node_id": "claim:5b33c60ba8dd",
+          "score": 0.6271,
+          "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus.",
+          "source_url": "https://arxiv.org/abs/2404.16130"
+        }
+      ],
+      "confidence": 0.641,
+      "conflicts_or_missing_evidence": [
+        "Retrieved evidence includes cautionary or limitation language; treat recommendation as conditional.",
+        "No explicit benchmark or dataset node was retrieved for the top evidence chain."
+      ],
+      "evidence_chain": [
+        [
+          "claim:b31740484e82",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture",
+          "<-BELONGS_TO_COMMUNITY",
+          "chunk:297194fc05a0"
+        ],
+        [
+          "paper:sample:graphrag",
+          "CLAIMS",
+          "claim:5b33c60ba8dd",
+          "SUPPORTED_BY",
+          "chunk:fc6e5b8d6191"
+        ],
+        [
+          "chunk:9300a3545ee0",
+          "MENTIONS",
+          "method:agent-memory",
+          "<-USES_METHOD",
+          "repo:example/signalgraph-agent-memory"
+        ],
+        [
+          "claim:b31740484e82",
+          "SUPPORTED_BY",
+          "chunk:83ff5028526f",
+          "<-HAS_CHUNK",
+          "repo:microsoft/graphrag"
+        ],
+        [
+          "claim:b31740484e82",
+          "<-CLAIMS",
+          "repo:microsoft/graphrag",
+          "IMPLEMENTS",
+          "paper:sample:rag-eval",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture"
+        ],
+        [
+          "paper:sample:memgpt",
+          "CLAIMS",
+          "claim:d12728f4e06b",
+          "<-CONTRADICTS",
+          "claim:5b33c60ba8dd"
+        ],
+        [
+          "claim:b31740484e82",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture",
+          "<-BELONGS_TO_COMMUNITY",
+          "chunk:297194fc05a0"
+        ],
+        [
+          "paper:sample:graphrag",
+          "CLAIMS",
+          "claim:5b33c60ba8dd",
+          "SUPPORTED_BY",
+          "chunk:fc6e5b8d6191"
+        ],
+        [
+          "community:agent-architecture",
+          "<-BELONGS_TO_COMMUNITY",
+          "chunk:251a3df8a74c",
+          "<-SUPPORTED_BY",
+          "claim:dec599dc88b9"
+        ],
+        [
+          "chunk:9300a3545ee0",
+          "MENTIONS",
+          "method:agent-memory",
+          "<-USES_METHOD",
+          "repo:example/signalgraph-agent-memory"
+        ]
+      ],
+      "next_checks": [
+        "Open the saved Cypher evidence-path query in Neo4j Browser.",
+        "Inspect raw source records for the cited spans.",
+        "Add benchmark or dataset extraction for the target method."
+      ],
+      "production_recommendation": "Evaluate the linked implementation first, but require a small reproduction pass and repo-health review before adoption.",
+      "query": "Which GraphRAG implementation should a startup evaluate first?",
+      "reasoning": "SignalGraph routed the query to drift retrieval and ranked evidence by semantic/lexical relevance, graph path quality, source quality, freshness, confidence, and evidence strength.",
+      "route": "drift"
+    },
+    "latency_ms": {
+      "graph_rag": 336.452,
+      "vector_only": 2.087
+    },
+    "query": "Which GraphRAG implementation should a startup evaluate first?",
+    "retrieved_context_difference": {
+      "graph_node_ids": [
+        "chunk:297194fc05a0",
+        "chunk:fc6e5b8d6191",
+        "repo:example/signalgraph-agent-memory",
+        "repo:microsoft/graphrag",
+        "community:agent-architecture",
+        "claim:5b33c60ba8dd",
+        "paper:semanticscholar:s2-graphrag-memory",
+        "claim:dec599dc88b9",
+        "benchmark:faithfulness",
+        "benchmark:benchmark",
+        "community:agent-architecture",
+        "benchmark:answer-relevance"
+      ],
+      "graph_paths": [
+        [
+          "claim:b31740484e82",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture",
+          "<-BELONGS_TO_COMMUNITY",
+          "chunk:297194fc05a0"
+        ],
+        [
+          "paper:sample:graphrag",
+          "CLAIMS",
+          "claim:5b33c60ba8dd",
+          "SUPPORTED_BY",
+          "chunk:fc6e5b8d6191"
+        ],
+        [
+          "chunk:9300a3545ee0",
+          "MENTIONS",
+          "method:agent-memory",
+          "<-USES_METHOD",
+          "repo:example/signalgraph-agent-memory"
+        ],
+        [
+          "claim:b31740484e82",
+          "SUPPORTED_BY",
+          "chunk:83ff5028526f",
+          "<-HAS_CHUNK",
+          "repo:microsoft/graphrag"
+        ],
+        [
+          "claim:b31740484e82",
+          "<-CLAIMS",
+          "repo:microsoft/graphrag",
+          "IMPLEMENTS",
+          "paper:sample:rag-eval",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture"
+        ],
+        [
+          "paper:sample:memgpt",
+          "CLAIMS",
+          "claim:d12728f4e06b",
+          "<-CONTRADICTS",
+          "claim:5b33c60ba8dd"
+        ],
+        [
+          "method:agent-memory",
+          "<-INTRODUCES",
+          "paper:semanticscholar:s2-graphrag-memory"
+        ],
+        [
+          "community:agent-architecture",
+          "<-BELONGS_TO_COMMUNITY",
+          "chunk:251a3df8a74c",
+          "<-SUPPORTED_BY",
+          "claim:dec599dc88b9"
+        ],
+        [
+          "benchmark:faithfulness",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture"
+        ],
+        [
+          "benchmark:benchmark",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture"
+        ],
+        [
+          "community:agent-architecture"
+        ],
+        [
+          "benchmark:answer-relevance",
+          "BELONGS_TO_COMMUNITY",
+          "community:agent-architecture"
+        ]
+      ],
+      "vector_node_ids": [
+        "chunk:83ff5028526f",
+        "chunk:13d8b5ae7135",
+        "chunk:3528d4db9e28",
+        "chunk:297194fc05a0",
+        "chunk:fc6e5b8d6191"
+      ]
+    },
+    "vector_only": {
+      "answer": "The best-supported answer is grounded in the retrieved claims and source chunks: A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. graphrag retrieval knowledge-graph community-detection; example/signalgraph-agent-memory GraphRAG agent memory implementation with benchmark, dataset, and Hugging Face model integration. graphrag agent-memory rag-evaluation; example/graphrag-agent-memory text-generation graphrag agent-memory benchmark Model card for a GraphRAG agent memory assistant evaluated with faithfulness and context recall bench...",
+      "citations": [
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:83ff5028526f",
+          "score": 0.383,
+          "source_span": "A data pipeline and transformation suite for GraphRAG with community detection, reports, indexing, and retrieval workflows. graphrag retrieval knowledge-graph community-detection",
+          "source_url": "https://github.com/microsoft/graphrag"
+        },
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:13d8b5ae7135",
+          "score": 0.3815,
+          "source_span": "example/signalgraph-agent-memory GraphRAG agent memory implementation with benchmark, dataset, and Hugging Face model integration. graphrag agent-memory rag-evaluation",
+          "source_url": "https://github.com/example/signalgraph-agent-memory"
+        },
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:3528d4db9e28",
+          "score": 0.3718,
+          "source_span": "example/graphrag-agent-memory text-generation graphrag agent-memory benchmark Model card for a GraphRAG agent memory assistant evaluated with faithfulness and context recall benchmarks. license: apache-2.0 datasets: ['example/agent-memory-eval'] metrics: ['fa...",
+          "source_url": "https://huggingface.co/example/graphrag-agent-memory"
+        },
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:297194fc05a0",
+          "score": 0.3661,
+          "source_span": "GraphRAG and agent memory systems can connect papers, repositories, datasets, and evaluation benchmarks for production assistants.",
+          "source_url": "https://www.semanticscholar.org/paper/S2-GRAPHRAG-MEMORY"
+        },
+        {
+          "labels": [
+            "DocumentChunk"
+          ],
+          "node_id": "chunk:fc6e5b8d6191",
+          "score": 0.3647,
+          "source_span": "GraphRAG uses entity graphs, community detection, and community reports to improve answers for global questions over a corpus. The method is useful when evidence requires multi-hop relationships across papers, claims, and source chunks.",
+          "source_url": "https://arxiv.org/abs/2404.16130"
+        }
+      ],
+      "confidence": 0.373,
+      "conflicts_or_missing_evidence": [
+        "No explicit benchmark or dataset node was retrieved for the top evidence chain.",
+        "No implementation repository was retrieved in the top evidence."
+      ],
+      "evidence_chain": [
+        [
+          "chunk:83ff5028526f"
+        ],
+        [
+          "chunk:13d8b5ae7135"
+        ],
+        [
+          "chunk:3528d4db9e28"
+        ],
+        [
+          "chunk:297194fc05a0"
+        ],
+        [
+          "chunk:fc6e5b8d6191"
+        ]
+      ],
+      "next_checks": [
+        "Open the saved Cypher evidence-path query in Neo4j Browser.",
+        "Inspect raw source records for the cited spans.",
+        "Add benchmark or dataset extraction for the target method.",
+        "Run GitHub ingestion for implementation evidence."
+      ],
+      "production_recommendation": "Treat the answer as exploratory until stronger claim and implementation evidence is available.",
+      "query": "Which GraphRAG implementation should a startup evaluate first?",
+      "reasoning": "SignalGraph routed the query to vector retrieval and ranked evidence by semantic/lexical relevance, graph path quality, source quality, freshness, confidence, and evidence strength.",
+      "route": "vector"
+    }
+  }
+}
